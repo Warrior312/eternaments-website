@@ -6,4 +6,4 @@ tietiary = #E8DFD6 - tan (not almond lol)
 
 quaternary = #097979 - teal
 
-quintary = #AFAFAF
+quintary = #AFAFAF - gray
