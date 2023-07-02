@@ -1,0 +1,9 @@
+primary = #015D77 - eterna blue
+
+secondary = #000000 - black
+
+tietiary = #E8DFD6 - tan (not almond lol)
+
+quaternary = #097979 - teal
+
+quintary = #AFAFAF
