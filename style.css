@@ -6,13 +6,14 @@ html {
 
 .hidden {
     opacity: 0;
-    filter: blur(10px);
+    filter: blur(3px);
    
-    transition: all 1.5s;
+    transition: all .75s;
 }
 .show {
     opacity: 1;
     filter: blur(0);
+    
     
 }
 
@@ -94,7 +95,7 @@ body {
     background-color: #011217;
     z-index: 4;
     display: block;
-    font-family: Calibri;
+    font-family: Calibri, sans-serif;
 }
 
 #parallax{
@@ -143,7 +144,7 @@ body {
     align-content: center;
     text-align: center;
     font-size: 35px;
-    font-family: Calibri;
+    font-family: Calibri, sans-serif;
     
 }
 
