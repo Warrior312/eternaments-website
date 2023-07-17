@@ -10,32 +10,32 @@
 
 
 
-<div id="topnav">
-    <a class="active" href="/eternaments-website/index.html">Home</a>
-    <div class="dropdown">
-        <a class="dropbtn">Leagues</a>
-        <div class="dropdownContent">
-            <a href="/eternaments-website/pages/echovr.html">Echo Arena</a>
-            <a href="#dropdown">More Dropdown Content</a>
-            <a href="#dropdown">More Dropdown Content</a>
-            <a href="#dropdown">More Dropdown Content</a>
-            <a href="#dropdown">More Dropdown Content</a>
-        </div>
-    </div>
-    <a href="/eternaments-website/pages/staff.html">Contact</a>
-    <a href="#about">About</a>
-</div>
+
+<?php include_once 'pages/header.php'?>
+
 <div id="parallax"></div>
 
 <script>
-    /**
+    
     const bg = document.getElementById('parallax');
     window.addEventListener('scroll', function(){
-        bg.style.backgroundSize = 70 - +window.pageYOffset/12+"%";
+        bg.style.backgroundSize = 80 + +window.pageYOffset/200+"%";
        
     })
-    **/
+    
 
+</script>
+<form class="secretForm" autocapitalize="off" autocomplete="off">
+    <input type="text" id="secretInput" name="si">
+</form>
+
+<script type="text/javascript">
+    document.querySelector(".secretForm")?.addEventListener('submit', e => {
+        e.preventDefault();
+        if (e.currentTarget.si.value == "589xBNQ"){
+            document.location.pathname = "eternaments-website/pages/secret.html"
+        }
+    })
 </script>
 
 <div id="aboutUs">

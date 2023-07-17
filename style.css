@@ -19,73 +19,12 @@ html {
 
 
 
-.dropbtn {
-    color: white;
-    padding: 16px;
-    border: none;
-    cursor: pointer;
-    background-color: #011217;
-    font-size: 16x;
-    z-index: 1;
-    width: 75px;
-}
-
-
 body {
     height: 100%;
     width: 100%;
     background-color:  #000000;
     overflow-x: hidden;
     margin: 0px;
-}
-.dropdown {
-    position:relative;
-    top: 0;
-    display: inline-block;
-    align-content: center;
-    text-decoration: none;
-}
-
-.dropdownContent {
-    display: none;
-    position:absolute;
-    top: -20px;
-    text-align: center;
-    opacity: 0;
-    background-color: #097979;
-    width: 100%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 3;
-}
-
-.dropdownContent a:hover {
-    background-color: aqua;
-}
-
-.dropdownContent a {
-    color: #3f3f3f;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: none;
-    text-align: center;
-    z-index: -1;
-}
-
-.dropdown:hover .dropdownContent{
-    animation-name: drop;
-    display: block;
-    text-align: center;
-    animation-duration: .4s;  
-    animation-fill-mode: forwards;
-}
-
-.dropdown:hover .dropdownContent a{
-    display: block;
-}
-
-@keyframes drop {
-    from{top: -20px; opacity: 0;}
-    to {top:48px; opacity: 1;}
 }
 
 
@@ -104,14 +43,29 @@ body {
     display: block;
     height: 90%;
     background-color: #011217;
-    background-image: url("/eternaments-website/img/0.gif");
-
+    background-image: url(" /img/0.gif");
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 80%;
     z-index: -5;
 }
 
+Input{
+    position: absolute;
+    left: 20px;
+    top: 125%;
+    background-color: #000000;
+    border-color: #000000;
+    z-index: 5;
+    outline: none;
+    border: none;
+    color: #0d0d0d;
+}
+
+#secretInput:focus{
+    outline: none;
+}
 
   
 #topnav a {
@@ -155,7 +109,7 @@ body {
 }
 
 #firstImageimg{
-    background-image: url(/eternaments-website/img/header.jpg);
+    background-image: url( /img/header.jpg);
     height: 100%;
     width: 100%;
     background-position: right;
@@ -164,7 +118,7 @@ body {
 }
 
 #secondImageimg{
-    background-image: url(/eternaments-website/img/IMAGE_3.jpg);
+    background-image: url( /img/IMAGE_3.jpg);
     height: 100%;
     width: 100%;
     background-position: left;
@@ -173,7 +127,7 @@ body {
 }
 
 #thirdImageimg{
-    background-image: url(/eternaments-website/img/QD2spX.png);
+    background-image: url( /img/QD2spX.png);
     height: 100%;
     width: 100%;
     background-position: right;
@@ -183,7 +137,7 @@ body {
 
 
 #fourthImageimg{
-    background-image: url(/eternaments-website/img/breachers.png);
+    background-image: url( /img/breachers.png);
     height: 100%;
     width: 100%;
     background-position: left;
