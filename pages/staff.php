@@ -59,28 +59,19 @@
             <br>
             <div id="name", style="font-size: 30px; font-family: monospace;">Ceriel</div>
             <div id="discordHandle" style="font-size: 20px; font-family: monospace;">ceriel03</div>
-            <div id="title" style="font-size: 14px; font-family: monospace;">Operations Team Lead</div>
+            <div id="title" style="font-size: 14px; font-family: monospace;">Tournament Director</div>
         </div>
         <div class="staffMember">
             
             <br>
-            <div class="profImg" style="background-image: url( /img/testprofile.png);"></div>
+            <div class="profImg" style="background-image: url( /img/vortex.jpg); background-size: 90%;"></div>
             
             <br>
             <div id="name", style="font-size: 30px; font-family: monospace;">Vortex_O</div>
             <div id="discordHandle" style="font-size: 20px; font-family: monospace;">vortex_o</div>
             <div id="title" style="font-size: 14px; font-family: monospace;">Operations Team Member</div>
         </div>
-        <div class="staffMember">
-            
-            <br>
-            <div class="profImg" style="background-image: url( /img/jim.png);"></div>
-            
-            <br>
-            <div id="name", style="font-size: 30px; font-family: monospace;">JIM</div>
-            <div id="discordHandle" style="font-size: 20px; font-family: monospace;">j.i.m156</div>
-            <div id="title" style="font-size: 14px; font-family: monospace;">Operations Team Member</div>
-        </div>
+       
         <div class="staffMember">
             
             <br>
@@ -91,16 +82,7 @@
             <div id="discordHandle" style="font-size: 20px; font-family: monospace;">macncheezez</div>
             <div id="title" style="font-size: 14px; font-family: monospace;">Operations Team Member</div>
         </div>
-        <div class="staffMember">
-            
-            <br>
-            <div class="profImg" style="background-image: url( /img/ninjakai.png);"></div>
-            
-            <br>
-            <div id="name", style="font-size: 30px; font-family: monospace;">Ninjakais</div>
-            <div id="discordHandle" style="font-size: 20px; font-family: monospace;">_schroeder.</div>
-            <div id="title" style="font-size: 14px; font-family: monospace;">Operations Team Member</div>
-        </div>
+       
         <div class="staffMember">
             
             <br>
@@ -201,7 +183,7 @@
         <div class="staffMember">
             
             <br>
-            <div class="profImg" style="background-image: url( /img/testprofile.png);"></div>
+            <div class="profImg" style="background-image: url( /img/splice.jpg);"></div>
             
             <br>
             <div id="name", style="font-size: 30px; font-family: monospace;">Splice Knight</div>
@@ -248,6 +230,17 @@
             <div id="discordHandle" style="font-size: 20px; font-family: monospace;">sweetlyfe</div>
             <div id="title" style="font-size: 14px; font-family: monospace;">Public Relations Director</div>
         </div>
+
+        <div class="staffMember">
+            
+            <br>
+            <div class="profImg" style="background-image: url( /img/jim.png);"></div>
+            
+            <br>
+            <div id="name", style="font-size: 30px; font-family: monospace;">JIM</div>
+            <div id="discordHandle" style="font-size: 20px; font-family: monospace;">j.i.m156</div>
+            <div id="title" style="font-size: 14px; font-family: monospace;">Public Relations Team Member</div>
+        </div>
         
     </div>
     </div>
@@ -273,7 +266,7 @@
         <div class="staffMember">
             
             <br>
-            <div class="profImg" style="background-image: url( /img/testprofile.png);"></div>
+            <div class="profImg" style="background-image: url( /img/floppa.jpg);"></div>
             
             <br>
             <div id="name", style="font-size: 30px; font-family: monospace;">BigFloppa</div>

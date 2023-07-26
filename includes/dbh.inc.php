@@ -1,12 +1,14 @@
 <?php
 
 $serverName = "localhost";
-$dBUsername = "eterna04_admin";
-$dBPassword = "Y?daOh?C-Tnw";
-$dBName = "eternao4_webite_data";
+$dBUsername = "root";
+$dBPassword = " "; //vKZcHnMDbkC2ZIBO 
+$dBName = "website_data";
 
 
-$conn = mysqli_connect($serverName, $dBUsername, $dBPassword, $dBName);
+$conn = mysqli_connect($serverName, $dBUsername);
+
+mysqli_select_db($conn, "website_data");
 
 
 if (!$conn){

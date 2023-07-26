@@ -38,8 +38,8 @@
         </div>
     </div>
     <a href="/pages/staff.php">Contact</a>
-    <a href="#about">About</a>
-    <a href="/pages/init_oauth.php">Account</a>
+   
+    <a href="/pages/signup.php">Account</a>
 
 
 

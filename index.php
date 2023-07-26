@@ -8,10 +8,14 @@
 </head>
 <body>
 
-
-
-
 <?php include_once 'pages/header.php'?>
+
+
+
+
+
+
+
 
 <div id="parallax"></div>
 

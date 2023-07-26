@@ -20,7 +20,7 @@
         'scope'=>"identify%20guids"
     ];
 
-    print_r($payload);
+    
 
     $payload_string = http_build_query($payload);
 
@@ -45,10 +45,7 @@
     $result = curl_exec($ch);
     
 
-    if(!$result){
-        echo curl_error($ch);
-    };
-
+    
     $result = json_decode($result, true);
     $access_token = $result['access_token'];
 
@@ -68,15 +65,15 @@
     $result = curl_exec($ch);
     $result = json_decode($result, true);
     session_start();
-
-    $_SESSION['logged_in'] = true;
+    print_r($result);
+    $_SESSION['signingUp'] = true;
     $_SESSION['userData'] = [
         'name'=>$result['username'],
         'discordId'=>$result['id'],
-        "avatar"=>$result['avatar'],
+        'avatar'=>$result['avatar'],
     ];
 
-    header("location: /index.php");
+    header("location: /pages/signup.php");
     exit();
 ?>
 

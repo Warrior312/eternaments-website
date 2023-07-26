@@ -1,5 +1,8 @@
 <?php
-    session_start();
+    if(!isset($_SESSION)){
+        session_start();
+    }
+    
     if(!$_SESSION['logged_in']){
         header("location: /pages/err.php");
         exit();
