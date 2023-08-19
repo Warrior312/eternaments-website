@@ -23,7 +23,7 @@ body {
     height: 100%;
     width: 100%;
     background-color:  #000000;
-    
+    position: absolute;
     margin: 0px;
    
 }
