@@ -132,7 +132,7 @@ Input{
     text-align: center;
     font-size: 2.5vw;
     font-family: Calibri, sans-serif;
-   overflow-x: hidden;
+    
 }
 
 #content{
@@ -144,7 +144,7 @@ Input{
 #firstImageimg{
     background-image: url( /img/header.jpg);
     height: 100%;
-    width: 100vw;
+    width: 100%;
     background-position: right;
     background-repeat: no-repeat;
     background-size: 150%;
