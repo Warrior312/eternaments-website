@@ -64,6 +64,25 @@ body {
     z-index: -5;
 }
 
+@media only screen and (max-width: 620px) {
+    
+    #parallax{
+        padding: 0%;
+        
+        display: block;
+        height: 80%;
+        width: auto;
+        margin: 2%;
+        background-color: #000507;
+        background-image: url(" /img/0.gif");
+        background-attachment: fixed;
+        background-position: 0%;
+        background-repeat: no-repeat;
+        background-size: 80vw;
+        z-index: -5;
+    }
+}
+
 Input{
     position: absolute;
     left: 20px;
