@@ -76,8 +76,8 @@ body {
         background-color: #000507;
         background-image: url(" /img/0.gif");
         background-attachment: fixed;
-        background-position-x: 0%;
-        background-position-y: 5%;
+        background-position-x: center;
+        background-position-y: 15%;
         background-repeat: no-repeat;
         background-size: 80vw;
         z-index: -5;
