@@ -42,13 +42,16 @@ body {
     padding: 0%;
     
     display: block;
-    height: 90%;
-    background-color: #011217;
+    height: 80%;
+    width: auto;
+    margin: 2%;
+    background-color: #000507;
     background-image: url(" /img/0.gif");
     background-attachment: fixed;
-    background-position: center;
+    background-position-y: center;
+    background-position-x: center;
     background-repeat: no-repeat;
-    background-size: 90vw;
+    background-size: 80%;
     z-index: -5;
 }
 

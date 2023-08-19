@@ -48,15 +48,16 @@
     <a href="/pages/hall0Fame.php">Honors</a>
 
 
-
+    <!---
     <img src=<?php 
+    /*
     error_reporting(0);
     if($_SESSION['logged_in']){
         echo $avatar_url;
     }else{
         echo 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Question_mark_%28black%29.svg/800px-Question_mark_%28black%29.svg.png';
-    } ?> id="avatar">
-
+    } */?> id="avatar">
+    --->
     
 </div>
 </html>

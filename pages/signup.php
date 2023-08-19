@@ -1,6 +1,8 @@
 <link rel="stylesheet" href="signup.css">
 
 <?php
+    header("location: /pages/comingsoon.php");
+    exit();
     if(!isset($_SESSION)) 
     { 
         session_start(); 

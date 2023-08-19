@@ -1,0 +1,113 @@
+#background{
+    position: relative;
+    background-image: url("/img/Untitled_design_6.png");
+    width: auto;
+    height: 50%;
+    max-height: 80vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50vw; 
+}
+body {
+    height: fit-content;
+    width: 100%;
+    background-color:  #000000;
+    overflow-x: hidden;
+    margin: 0px;
+}
+html {
+    height: fit-content;
+    justify-content: center;
+}
+#text{
+
+    color: white;
+    position: relative;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 9vw;
+    white-space: pre-wrap;
+    text-align: center;
+    opacity: 80%;
+    padding: 2vw;
+    width: auto;
+}
+
+@media only screen and (min-width : 480px){
+    #background{
+        position: relative;
+        background-image: url("/img/Untitled_design_6.png");
+        width: auto;
+        height: 50%;
+        max-height: 80vw;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 50vw; 
+    }
+    body {
+        height: fit-content;
+        width: 100%;
+        background-color:  #000000;
+        overflow-x: hidden;
+        margin: 0px;
+    }
+    html {
+        height: fit-content;
+        justify-content: center;
+    }
+    #text{
+    
+        color: white;
+        position: relative;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 9vw;
+        white-space: pre-wrap;
+        text-align: center;
+        opacity: 80%;
+        padding: 2vw;
+        width: auto;
+    }
+}
+
+@media only screen and (min-width : 992px){
+    #text{
+    
+        color: white;
+        position: relative;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 3vw;
+        white-space: pre-wrap;
+        text-align: center;
+        opacity: 80%;
+        padding: 2vw;
+        width: auto;
+    }
+    body {
+        height: fit-content;
+        width: 100%;
+        background-color:  #000000;
+        overflow-x: hidden;
+        margin: 0px;
+    }
+    html {
+        height: fit-content;
+        justify-content: center;
+    }
+    #container{
+        
+        width: auto;
+        height: 100vw;
+        align-items:  center;
+        margin: 20px;
+    }
+    #background{
+        position: relative;
+        background-image: url("/img/Untitled_design_6.png");
+        width: auto;
+        height: 30%;
+        max-height: 80vw;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 30vw;
+        
+    }
+}

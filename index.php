@@ -12,7 +12,7 @@
 
 
 
-
+<br>
 
 
 
@@ -24,7 +24,7 @@
     
     const bg = document.getElementById('parallax');
     window.addEventListener('scroll', function(){
-        bg.style.backgroundSize = 90 + +window.pageYOffset/100+"vw";
+        bg.style.backgroundSize = 80 + +window.pageYOffset/100+"%";
        
     })
     
