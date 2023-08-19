@@ -8,7 +8,7 @@
 </head>
 <?php include_once 'pages/header.php'?>
 <body>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1 minimum-scale=1" />
 
 
 
