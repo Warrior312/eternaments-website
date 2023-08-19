@@ -1,6 +1,6 @@
 <?php
 
-$serverName = "67.20.112.112";
+$serverName = "localhost";
 $dBUsername = "eternao4_admin";
 $dBPassword = "vKZcHnMDbkC2ZIBO"; //vKZcHnMDbkC2ZIBO 
 $dBName = "eternao4_website_data";
