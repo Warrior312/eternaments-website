@@ -43,7 +43,7 @@
 
     <a href="/pages/staff.php">Contact</a>
    
-    <a href="/pages/signup.php">Account</a>
+    <a href="/pages/comingsoon.php">Account</a>
 
     <a href="/pages/hall0Fame.php">Honors</a>
 
