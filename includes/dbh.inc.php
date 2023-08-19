@@ -10,7 +10,7 @@ $dBName = "eternao4_website_data";
 
 $conn = mysqli_connect($serverName, $dBUsername);
 
-mysqli_select_db($conn, "eterna04_website_data");
+mysqli_select_db($conn, "eternao4_website_data");
 
 
 if (!$conn){
