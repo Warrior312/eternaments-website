@@ -45,7 +45,7 @@
    
     <a href="/pages/comingsoon.php">Account</a>
 
-    <a href="/pages/hall0Fame.php">Honors</a>
+    <a href="/pages/hall0fame.php">Honors</a>
 
 
     <!---
