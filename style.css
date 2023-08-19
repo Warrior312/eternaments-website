@@ -132,7 +132,7 @@ Input{
     text-align: center;
     font-size: 2.5vw;
     font-family: Calibri, sans-serif;
-   
+   overflow-x: hidden;
 }
 
 #content{
