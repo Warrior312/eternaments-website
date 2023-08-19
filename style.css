@@ -4,7 +4,15 @@ html {
 }
 
 
-
+@media only screen and (min-width : 480px){
+    .hidden {
+        opacity: 1;
+        
+       
+        
+    }
+    
+}
 .hidden {
     opacity: 0;
     filter: blur(3px);
