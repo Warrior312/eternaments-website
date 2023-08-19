@@ -33,7 +33,7 @@ body {
     
     background-color:  #000000;
     
-    
+    overflow-x: hidden;
    
 }
 
@@ -58,8 +58,7 @@ body {
     background-color: #000507;
     background-image: url(" /img/0.gif");
     background-attachment: fixed;
-    background-position-y: center;
-    background-position-x: center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: 80%;
     z-index: -5;
