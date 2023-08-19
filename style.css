@@ -2,14 +2,6 @@ html {
     height: 100%;
     
 }
-
-
-@media only screen and (max-width: 620px) {
-    .hidden {
-        opacity: 1;
-    }
-    
-}
 .hidden {
     opacity: 0;
     filter: blur(3px);
@@ -22,6 +14,14 @@ html {
     
     
 }
+
+@media only screen and (max-width: 620px) {
+    .hidden {
+        opacity: 1;
+    }
+    
+}
+
 
 
 
