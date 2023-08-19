@@ -1,6 +1,6 @@
 <?php
 
-$serverName = "localhost:3306";
+$serverName = "localhost";
 $dBUsername = "eternao4_admin";
 $dBPassword = "vKZcHnMDbkC2ZIBO"; //vKZcHnMDbkC2ZIBO 
 $dBName = "eternao4_website_data";
@@ -10,7 +10,7 @@ $dBName = "eternao4_website_data";
 
 $conn = mysqli_connect($serverName, $dBUsername);
 
-mysqli_select_db($conn, "eternao4_website_data");
+mysqli_select_db($conn, $dBName);
 
 
 if (!$conn){
