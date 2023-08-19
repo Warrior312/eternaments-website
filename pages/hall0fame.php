@@ -1,6 +1,7 @@
 <html>
     <?php
         require_once 'header.php'
+        
     ?>
     <link rel="stylesheet" href="HOF.css">
 
@@ -8,6 +9,9 @@
         
         <div id="honorsBG">
             <?php
+                $jsonData = file_get_contents("../config.json");
+                $jsonData = json_decode($jsonData, true);
+               
                 require_once '../includes/dbh.inc.php';
                 $sql = "SELECT COUNT(*) FROM hof";
                 
@@ -37,7 +41,9 @@
                     foreach (explode(",", $rows[$X][2]) as $key => $value){
                         if ($value !== ","){
                             $discordId = $value;
-                            $token = "MTEwMzc3MTQ5NjM1NjI1MzgyNw.Gr0ref.8kGAncZovk7bRm2RZp2bUFIzWPNAvpgRvLmiDs";
+
+                            
+                            $token = $jsonData["token"];
                             $url = "https://discord.com/api/v9/users/{$discordId}";
                             
                             $options = array(
