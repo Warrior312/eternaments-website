@@ -27,19 +27,25 @@
 <div id="topnav">
     <link rel="stylesheet" href="/pages/nav.css">
     <a class="active" href="/index.php">Home</a>
+
+    <!---
     <div class="dropdown">
         <a class="dropbtn">Leagues</a>
         <div class="dropdownContent">
-            <a href="/pages/echovr.php">Echo Arena</a>
+            
             <a href="#dropdown">More Dropdown Content</a>
             <a href="#dropdown">More Dropdown Content</a>
             <a href="#dropdown">More Dropdown Content</a>
             <a href="#dropdown">More Dropdown Content</a>
         </div>
     </div>
+    -->
+
     <a href="/pages/staff.php">Contact</a>
    
     <a href="/pages/signup.php">Account</a>
+
+    <a href="/pages/hall0Fame.php">Honors</a>
 
 
 

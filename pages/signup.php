@@ -98,14 +98,16 @@
                     }
                 ?>
                 
+                <div id="signupContainer">
+                    <?php
+                        if (isset($_SESSION["signingUp"])){
+                            echo '<button type="submit" name="compsign" id="signupAlt">Complete Sign Up</button>';
+                        }else{
+                            echo ' <button type="submit" name="login"id="login">Log In</button> <a href="/pages/init_oauth.php" id="signUpmain" name="toSignUp">Sign Up</a>';
+                        }
+                    ?>
+                </div>
                 
-                <?php
-                    if (isset($_SESSION["signingUp"])){
-                        echo '<button type="submit" name="compsign" class="loginButt">Complete Sign Up</button>';
-                    }else{
-                       echo ' <button type="submit" name="login"class="loginButt">Log In</button> <a href="/pages/init_oauth.php" name="toSignUp">Sign Up</a>';
-                    }
-                ?>
                
                 
                 

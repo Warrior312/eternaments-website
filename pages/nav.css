@@ -72,11 +72,13 @@
 }
 
 #topnav {
-    position: relative;
-    background-color: #011217;
+    position: sticky;
+    background-color: #010f13;
     z-index: 4;
     display: block;
     font-family: Calibri, sans-serif;
+    height: 50px;
+    background-attachment: fixed;
 }
 
 #topnav a {

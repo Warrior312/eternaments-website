@@ -35,6 +35,7 @@ body {
     z-index: 4;
     display: block;
     font-family: Calibri, sans-serif;
+    height:fit-content;
 }
 
 #parallax{
@@ -47,7 +48,7 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 80%;
+    background-size: 90vw;
     z-index: -5;
 }
 
@@ -92,12 +93,12 @@ Input{
     display: block;
     color: white;
     position: relative;
-    height: 2000px;
+    height: 50vw;
     width: 100%;
     place-items: center;
     align-content: center;
     text-align: center;
-    font-size: 35px;
+    font-size: 2.5vw;
     font-family: Calibri, sans-serif;
     
 }
@@ -111,10 +112,19 @@ Input{
 #firstImageimg{
     background-image: url( /img/header.jpg);
     height: 100%;
-    width: 100%;
+    width: 100vw;
     background-position: right;
     background-repeat: no-repeat;
     background-size: 150%;
+}
+
+.imgHolder{
+    display: flex;
+    
+}
+
+.flexItems{
+    margin: 1vw;
 }
 
 #secondImageimg{

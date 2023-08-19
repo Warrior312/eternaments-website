@@ -118,3 +118,22 @@ body {
 .signIn:focus{
     outline: none;
 }
+
+#signupContainer{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logIn{
+    width: 50%;
+    
+    height: 100%;
+}
+
+#signUpmain{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+}

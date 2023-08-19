@@ -11,6 +11,10 @@ body {
 .typing{
     position: relative;
 }
+
+#department{
+    width: 95vw;
+}
 .typing::after{
     content: "|";
     position: absolute;
@@ -194,7 +198,7 @@ body {
 #staffInfo{
     color: white;
     display:flex;
-   
+    flex-wrap: wrap;
     float: left;
     justify-content: center;
 }
@@ -214,6 +218,7 @@ body {
     max-height: auto;
     padding: 10px;
     margin-left: 5px;
+    margin-bottom: 5px;
     text-align: center;
     background-color: #011217;
     border-radius: 2px;

@@ -67,6 +67,8 @@ function uidExists($conn, $username){
 
 }
 
+
+
 function createUser($conn, $userName, $pwd){
     print_r("Creating User");
     $sql = "INSERT INTO users (usersName, usersPwd, usersDiscordId, avatar) VALUES (?, ?, ?, ?);";

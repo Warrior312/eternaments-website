@@ -83,16 +83,7 @@
             <div id="title" style="font-size: 14px; font-family: monospace;">Operations Team Member</div>
         </div>
        
-        <div class="staffMember">
-            
-            <br>
-            <div class="profImg" style="background-image: url( /img/testprofile.png);"></div>
-            
-            <br>
-            <div id="name", style="font-size: 30px; font-family: monospace;">hlo</div>
-            <div id="discordHandle" style="font-size: 20px; font-family: monospace;">hlo.</div>
-            <div id="title" style="font-size: 14px; font-family: monospace;">Operations Team Member</div>
-        </div>
+       
     </div>
     </div>
     
@@ -200,16 +191,7 @@
             <div id="discordHandle" style="font-size: 20px; font-family: monospace;">felix7979</div>
             <div id="title" style="font-size: 14px; font-family: monospace;">Social Media and Marketing Team Member</div>
         </div>
-        <div class="staffMember">
-            
-            <br>
-            <div class="profImg" style="background-image: url( /img/sierra.png);   background-position-x: 50%; background-position-y: 5%;"></div>
-            
-            <br>
-            <div id="name", style="font-size: 30px; font-family: monospace;">Sierra</div>
-            <div id="discordHandle" style="font-size: 20px; font-family: monospace;">xcursions</div>
-            <div id="title" style="font-size: 14px; font-family: monospace;">Social Media and Marketing Team Member</div>
-        </div>
+        
     </div>
     </div>
     
@@ -252,17 +234,7 @@
     <div id="staffPage" class="scrollableStaff">
         <div id="staffInfo">
             
-        <div class="staffMember">
-            
-            <br>
-            <div class="profImg" style="background-image: url( /img/sokka.jpg);  background-position-x: 50%; background-position-y:35%; background-size: 105%;"></div>
-            
-            <br>
-            <div id="name", style="font-size: 30px; font-family: monospace;">Sokka-</div>
-            <div id="discordHandle" style="font-size: 20px; font-family: monospace;">sokkadash</div>
-            <div id="title" style="font-size: 14px; font-family: monospace;">Director of Finance</div>
-            <div id="honors" style="font-size: 10px; font-family: monospace; color: blueviolet; text-align: center; padding-top: 5px;">Co-Founder</div>
-        </div>
+        
         <div class="staffMember">
             
             <br>
