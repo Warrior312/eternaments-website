@@ -8,7 +8,7 @@
 </head>
 <body>
 
-
+<meta name="viewport" content="width=device-width, initial-scale=1 minimum-scale=1" />
 
 <?php include_once '../pages/header.php'?>
 <div id="staffMembers" style="padding-top: 20px; padding-bottom: 20px;">
