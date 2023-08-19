@@ -112,7 +112,7 @@ Input{
     text-align: center;
     font-size: 2.5vw;
     font-family: Calibri, sans-serif;
-    overflow-x: hidden;
+   
 }
 
 #content{
@@ -128,6 +128,8 @@ Input{
     background-position: right;
     background-repeat: no-repeat;
     background-size: 150%;
+    overflow-x: hidden;
+    
 }
 
 .imgHolder{
