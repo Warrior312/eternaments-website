@@ -141,8 +141,8 @@ body {
         line-height: 10vw;
     }
     .flexItems{
-        width: 100%;
-        text-align: center;
+        width: 100% !important;
+        text-align: center !important;
     }
 }
 
