@@ -81,7 +81,7 @@
         <br>
         <div id="fourthImage"  class="imgHolder">
             <div style="width: 50%;" class="flexItems imageholders">
-                <div id="fourthImageimg" class="hidden image"></div>
+                <div id="fourthImageimg" class="hidden flexItems image"></div>
                 
             </div>
             <p class="hidden flexItems" style="height: fit-content; text-align: right; width: 50%;">We are passionate about gaming, and we are committed to fostering a community that is inclusive, welcoming, and supportive. We believe that gaming is a powerful tool that can bring people together and create meaningful connections.
