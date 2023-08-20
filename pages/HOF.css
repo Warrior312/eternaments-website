@@ -136,8 +136,8 @@ html {
         background-size: 100%;
         background-position: center;
         border-radius: 50%; 
-        height: 12vw; 
-        width: 12vw;
+        height: 15vw; 
+        width: 15vw;
     }
     #honorsBG{
         position: relative;
@@ -184,7 +184,7 @@ html {
         vertical-align: middle;
         grid-row: 1;
         width: fit-content;
-        height: 24vw;
+        height: 48vw;
         
         animation-duration: 3s;
         animation-fill-mode: forwards;
