@@ -34,7 +34,7 @@
 
                 $rows = mysqli_stmt_get_result($stmt);
                 $rows = mysqli_fetch_all($rows);
-                
+                print_r($rows);
                 
                 for ($X = 0; count($rows); $X++){
                     echo '<div id="title"><?php // insert SQL data here ?>'. $rows[$X][1] .'</div>
