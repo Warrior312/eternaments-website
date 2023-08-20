@@ -120,6 +120,7 @@ body {
     .imgHolder{
         display: flex;
         flex-wrap: wrap;
+        height: fit-content;
     }
     #aboutUs {
         display: block;
