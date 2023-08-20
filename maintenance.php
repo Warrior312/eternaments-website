@@ -1,4 +1,5 @@
 <html>
+    <meta name="viewport" content="width=device-width, initial-scale=1 minimum-scale=1" />
     <body>
         <link rel="stylesheet" href="maint.css">
         <div id="text">Sorry, but our site is currently under maintenance. Please enjoy some music while you wait. It's sure to be excellent.</div>
