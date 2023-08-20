@@ -76,6 +76,19 @@ body {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     border-radius: 20px;
 }
+#aboutUs {
+    display: block;
+    color: white;
+    position: relative;
+    height: 50vw;
+    width: 100%;
+    place-items: center;
+    align-content: center;
+    text-align: center;
+    font-size: 2.5vw;
+    font-family: Calibri, sans-serif;
+    
+}
 
 @media only screen and (max-width: 620px) {
     
@@ -94,6 +107,19 @@ body {
         background-repeat: no-repeat;
         background-size: 90vw;
         z-index: -5;
+    }
+    #aboutUs {
+        display: block;
+        color: white;
+        position: relative;
+        height: 50vw;
+        width: 100%;
+        place-items: center;
+        align-content: center;
+        text-align: center;
+        font-size: 4vw;
+        font-family: Calibri, sans-serif;
+        
     }
 
     #invite{
