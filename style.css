@@ -89,7 +89,7 @@ body {
     align-content: center;
     text-align: center;
     font-size: 2.5vw;
-    font-family: Calibri, sans-serif;
+    font-family: monospace;
     
 }
 
@@ -135,7 +135,7 @@ body {
         align-content: center;
         text-align: center;
         font-size: 100%;
-        font-family: Calibri, sans-serif;
+        font-family: monospace;
         
     }
 
