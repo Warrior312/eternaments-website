@@ -154,6 +154,9 @@ body {
         width: 100% !important;
         text-align: center !important;
     }
+    .image{
+        height: fit-content !important;
+    }
 }
 
 Input{
