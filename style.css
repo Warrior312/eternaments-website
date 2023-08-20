@@ -161,7 +161,10 @@ body {
     }
     
     .imgHolder{
-        margin: 3vw;
+        margin-bottom: 3vw;
+        margin-top: 3vw;
+        margin-right: 0;
+        margin-left: 0;
         padding: 2%;
     }
     
