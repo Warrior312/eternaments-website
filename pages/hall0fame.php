@@ -19,6 +19,7 @@
                 $jsonData = json_decode($jsonData, true);
                
                 require_once '../includes/dbh.inc.php';
+                print_r("Cnnection Gotten");
                 $sql = "SELECT COUNT(*) FROM hof";
                 
                 $stmt = mysqli_stmt_init($conn);
