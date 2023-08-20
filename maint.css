@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+
+}
+
+
+#text{
+    text-align: center;
+    width: auto;
+    margin: 2%;
+    font-family: monospace;
+    font-size: 2vw;
+    color: white;
+    white-space:break-spaces;
+}
+
+#video{
+    display: block;
+    margin: 0;
+    text-align: center;
+}
+#vidContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin: 2%;
+    text-align: center;
+}
+
+#img{
+    width: 8vw;
+    
+    height: 8vw;
+}
+
+@media only screen and (max-width: 620px) {
+
+    #text{
+        text-align: center;
+        width: auto;
+        margin: 2%;
+        font-family: monospace;
+        font-size: 5vw;
+        color: white;
+        white-space:break-spaces;
+    }
+    
+    #video{
+        display: block;
+        margin: 0;
+        text-align: center;
+    }
+    #vidContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        margin: 5%;
+        text-align: center;
+    }
+    
+    #img{
+        width: 17vw;
+        
+        height: 17vw;
+    }
+}
