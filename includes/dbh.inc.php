@@ -1,5 +1,5 @@
 <?php
-
+error_reporting(E_ALL);
 $serverName = "localhost:3306";
 $dBUsername = "eternao4_admin";
 $dBPassword = "vKZcHnMDbkC2ZIBO "; //vKZcHnMDbkC2ZIBO 
