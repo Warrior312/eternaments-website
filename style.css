@@ -94,6 +94,11 @@ body {
     margin: 1vw;
 }
 
+.imgHolder{
+    display: flex;
+    
+}
+
 @media only screen and (max-width: 620px) {
     
     #parallax{
@@ -111,6 +116,10 @@ body {
         background-repeat: no-repeat;
         background-size: 90vw;
         z-index: -5;
+    }
+    .imgHolder{
+        display: flex;
+        flex-wrap: wrap;
     }
     #aboutUs {
         display: block;
@@ -202,10 +211,7 @@ Input{
     
 }
 
-.imgHolder{
-    display: flex;
-    
-}
+
 
 
 
