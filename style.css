@@ -171,6 +171,9 @@ body {
     .imageholders{
         height: 100% !important;
     }
+    p{
+        height: fit-content !important;
+    }
 }
 
 Input{
