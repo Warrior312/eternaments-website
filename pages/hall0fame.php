@@ -11,7 +11,7 @@
         <div id="honorsBG">
             <?php
                 print_r("Getting awardees");
-                error_reporting(32767);
+                error_reporting(E_ALL);
                 if(isset($_SESSION["connErr"])){
                     print_r($_SESSION["connErr"]);
                 }
