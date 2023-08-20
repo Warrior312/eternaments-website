@@ -157,7 +157,7 @@ body {
     }
     
     .imageholders{
-        height: fit-content !important;
+        height: 100% !important;
     }
 }
 
