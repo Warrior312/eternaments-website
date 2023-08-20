@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="HOF.css">
 
     <body>
-    <meta name="viewport" content="width=device-width, initial-scale=1 minimum-scale=1" />
+    
         <div id="honorsBG">
             <?php
+                print_r("Getting awardees");
                 error_reporting(32767);
                 $jsonData = file_get_contents("../config.json");
                 $jsonData = json_decode($jsonData, true);
@@ -34,7 +35,7 @@
 
                 $rows = mysqli_stmt_get_result($stmt);
                 $rows = mysqli_fetch_all($rows);
-                print_r($rows);
+                
                 
                 for ($X = 0; count($rows); $X++){
                     echo '<div id="title"><?php // insert SQL data here ?>'. $rows[$X][1] .'</div>
