@@ -131,7 +131,7 @@ body {
         place-items: center;
         align-content: center;
         text-align: center;
-        font-size: 4vw;
+        font-size: 100%;
         font-family: Calibri, sans-serif;
         
     }
@@ -156,11 +156,10 @@ body {
         height: 40vw !important;
         
     }
-    p{
-        height: fit-content !important;
-    }
+    
     .imgHolder{
-        margin: 1vw;
+        margin: 3vw;
+        padding: 2%;
     }
     
     .imageholders{
