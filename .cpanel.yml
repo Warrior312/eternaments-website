@@ -8,5 +8,7 @@ deployment:
     - /bin/cp -R ./pages $DEPLOYPATH
     - /bin/cp -R ./includes $DEPLOYPATH
     - /bin/cp -R ./node_modules $DEPLOYPATH
-    - /bin/cp -R ../eternaments-website $DEPLOYPATH
+    - /bin/cp -R favicon.ico $DEPLOYPATH
+    - /bin/cp -R app.js $DEPLOYPATH
+    - /bin/cp -R config.json $DEPLOYPATH
     
