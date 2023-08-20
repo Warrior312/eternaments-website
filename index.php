@@ -12,7 +12,7 @@
 
 
 
-<br>
+
 
 
 
@@ -57,7 +57,7 @@
             </div>
             
         </div>
-        <br>
+        
         <div id="secondImage" class="imgHolder">
             <div style="width: 50%;" class="flexItems imageholders">
                 <div id="secondImageimg" class="hidden flexItems image"></div>
@@ -67,7 +67,7 @@
            
             
         </div>
-        <br>
+        
         <div id="thirdImage" class="imgHolder">
             
             <p class="hidden flexItems paragraphs" style="height: fit-content; text-align: left; width: 50%;">At Eternaments, we take pride in the quality of our tournaments. We work tirelessly to ensure that each event is well-organized, fair, and enjoyable for everyone involved. Our team of experienced tournament organizers is always on hand to answer any questions you may have and provide you with the support you need to succeed.
@@ -78,7 +78,7 @@
             </div>
             
         </div>
-        <br>
+        
         <div id="fourthImage"  class="imgHolder">
             <div style="width: 50%;" class="flexItems imageholders">
                 <div id="fourthImageimg" class="hidden flexItems image"></div>
@@ -89,10 +89,10 @@
             
             
         </div>
-        <br>
+        
 
         <p class="hidden" style="height: fit-content; width:fit-content;">So, whether you’re a seasoned gamer or a newbie just starting out, we invite you to join us at Eternaments and experience the thrill of competitive gaming. Let’s build a community that is united by our love of gaming and our passion for competition.</p>
-        <br>
+        
         <a id="invite" href="https://discord.gg/eternaments" target="_blank">Jump In</a>
     </div>
     
