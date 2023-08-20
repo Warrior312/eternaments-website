@@ -121,11 +121,11 @@ html {
 
 @media only screen and (max-width: 620px) {
     #name{
-        font-size: 3vw;
+        font-size: 4vw;
     }
     
     #discordId{
-        font-size: 2vw;
+        font-size:  3vw;
     }
     #honorsBG{
         position: relative;
