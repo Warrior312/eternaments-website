@@ -1,5 +1,5 @@
 <?php
-error_reporting(E_ALL);
+
 $serverName = "localhost";
 $dBUsername = "root";
 $dBPassword = ""; //vKZcHnMDbkC2ZIBO 
