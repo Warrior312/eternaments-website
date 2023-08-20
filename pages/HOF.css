@@ -29,7 +29,7 @@ html {
     grid-row: 1;
     width: 16vw;
     height: 22vw;
-
+    word-wrap: break-word;
     animation-duration: 3s;
     animation-fill-mode: forwards;
     
