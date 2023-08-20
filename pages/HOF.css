@@ -127,6 +127,18 @@ html {
     #discordId{
         font-size:  3vw;
     }
+    .profImg{
+        zoom: 100%;
+        animation-fill-mode: forwards;
+        animation-duration: 3s;
+        background-image: attr(profileImage);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        border-radius: 50%; 
+        height: 12vw; 
+        width: 12vw;
+    }
     #honorsBG{
         position: relative;
         background-color: #011c24;
