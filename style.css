@@ -89,6 +89,55 @@ body {
     font-family: Calibri, sans-serif;
     
 }
+.imgHolder{
+    display: flex;
+    
+}
+
+#firstImageimg{
+    background-image: url( /img/header.jpg);
+    height: 100%;
+    width: 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    overflow-x: hidden;
+    
+}
+
+
+
+.flexItems{
+    margin: 1vw;
+}
+
+#secondImageimg{
+    background-image: url( /img/IMAGE_3.jpg);
+    height: 100%;
+    width: 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#thirdImageimg{
+    background-image: url( /img/QD2spX.png);
+    height: 100%;
+    width: 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+#fourthImageimg{
+    background-image: url( /img/breachers.png);
+    height: 100%;
+    width: 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 
 @media only screen and (max-width: 620px) {
     
@@ -112,7 +161,7 @@ body {
         display: block;
         color: white;
         position: relative;
-        height: 100vw;
+        height: 50vw;
         width: 100%;
         place-items: center;
         align-content: center;
@@ -135,6 +184,56 @@ body {
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         border-radius: 20px;
         line-height: 10vw;
+    }
+    .imgHolder{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    #firstImageimg{
+        background-image: url( /img/header.jpg);
+        height: 100%;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 150%;
+        overflow-x: hidden;
+        
+    }
+    
+    
+    
+    .flexItems{
+        margin: 1vw;
+    }
+    
+    #secondImageimg{
+        background-image: url( /img/IMAGE_3.jpg);
+        height: 100%;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    
+    #thirdImageimg{
+        background-image: url( /img/QD2spX.png);
+        height: 100%;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    
+    
+    #fourthImageimg{
+        background-image: url( /img/breachers.png);
+        height: 100%;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
     }
 }
 
@@ -183,51 +282,5 @@ Input{
     padding-top: 40px;
 }
 
-#firstImageimg{
-    background-image: url( /img/header.jpg);
-    height: 100%;
-    width: 100%;
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: 150%;
-    overflow-x: hidden;
-    
-}
 
-.imgHolder{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.flexItems{
-    margin: 1vw;
-}
-
-#secondImageimg{
-    background-image: url( /img/IMAGE_3.jpg);
-    height: 100%;
-    width: 100%;
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-#thirdImageimg{
-    background-image: url( /img/QD2spX.png);
-    height: 100%;
-    width: 100%;
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-
-#fourthImageimg{
-    background-image: url( /img/breachers.png);
-    height: 100%;
-    width: 100%;
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
 
