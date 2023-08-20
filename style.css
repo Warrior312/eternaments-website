@@ -64,6 +64,19 @@ body {
     z-index: -5;
 }
 
+#invite{
+    display: block;
+    position: relative;
+    top: -20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #022121;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 20px;
+}
+
 @media only screen and (max-width: 620px) {
     
     #parallax{
@@ -81,6 +94,20 @@ body {
         background-repeat: no-repeat;
         background-size: 80vw;
         z-index: -5;
+    }
+
+    #invite{
+        display: block;
+        position: relative;
+        top: -20px;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        background-color: #022121;
+        width: 100%;
+        height: 5vw;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        border-radius: 20px;
     }
 }
 
@@ -189,15 +216,3 @@ Input{
     background-size: 100%;
 }
 
-#invite{
-    display: block;
-    position: relative;
-    top: -20px;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    background-color: #022121;
-    width: 100%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    border-radius: 20px;
-}
