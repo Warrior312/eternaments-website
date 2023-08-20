@@ -190,6 +190,12 @@ html {
         animation-fill-mode: forwards;
         
     }
+    .staffMember:hover, element:active{
+    
+        animation-name: glow;
+        
+        
+    }
 }
 
 
