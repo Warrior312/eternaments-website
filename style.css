@@ -90,6 +90,10 @@ body {
     
 }
 
+.flexItems{
+    margin: 1vw;
+}
+
 @media only screen and (max-width: 620px) {
     
     #parallax{
@@ -135,6 +139,10 @@ body {
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         border-radius: 20px;
         line-height: 10vw;
+    }
+    .flexItems{
+        width: 100%;
+        text-align: center;
     }
 }
 
@@ -199,9 +207,7 @@ Input{
     
 }
 
-.flexItems{
-    margin: 1vw;
-}
+
 
 #secondImageimg{
     background-image: url( /img/IMAGE_3.jpg);
