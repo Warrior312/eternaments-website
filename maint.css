@@ -55,7 +55,7 @@ body{
         width: auto;
         margin: 1%;
         font-family: monospace;
-        font-size: 7vw;
+        font-size: 5vw;
         color: white;
         white-space:break-spaces;
     }
@@ -68,7 +68,7 @@ body{
         margin-right: 1%;
         margin-bottom: 0%;
         font-family: monospace;
-        font-size: 7vw;
+        font-size: 5vw;
         color: white;
         white-space:break-spaces;
     }
@@ -76,10 +76,9 @@ body{
     #video{
         display: block;
         margin: 0;
+        width: 90vw;
+        height: 70vw;
         text-align: center;
-        width: auto;
-        height: 80%;
-        width: 100%;
     }
     #vidContainer{
         display: flex;
