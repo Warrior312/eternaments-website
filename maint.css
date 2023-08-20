@@ -7,7 +7,19 @@ body{
 #text{
     text-align: center;
     width: auto;
-    margin: 2%;
+    margin: 1%;
+    font-family: monospace;
+    font-size: 2vw;
+    color: white;
+    white-space:break-spaces;
+}
+#text2{
+    text-align: center;
+    width: auto;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 0%;
     font-family: monospace;
     font-size: 2vw;
     color: white;
@@ -17,6 +29,8 @@ body{
 #video{
     display: block;
     margin: 0;
+    width: 40vw;
+    height: 25vw;
     text-align: center;
 }
 #vidContainer{
@@ -24,7 +38,7 @@ body{
     justify-content: center;
     align-items: center;
     width: auto;
-    margin: 2%;
+    margin: 1%;
     text-align: center;
 }
 
@@ -39,7 +53,20 @@ body{
     #text{
         text-align: center;
         width: auto;
-        margin: 2%;
+        margin: 1%;
+        font-family: monospace;
+        font-size: 5vw;
+        color: white;
+        white-space:break-spaces;
+    }
+
+    #text2{
+        text-align: center;
+        width: auto;
+        margin-top: 1%;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-bottom: 0%;
         font-family: monospace;
         font-size: 5vw;
         color: white;
@@ -52,6 +79,7 @@ body{
         text-align: center;
         width: auto;
         height: 30vw;
+        width: 40vw;
     }
     #vidContainer{
         display: flex;
