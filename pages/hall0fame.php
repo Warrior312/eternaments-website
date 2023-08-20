@@ -12,6 +12,9 @@
             <?php
                 print_r("Getting awardees");
                 error_reporting(32767);
+                if(isset($_SESSION["connErr"])){
+                    print_r($_SESSION["connErr"]);
+                }
                 $jsonData = file_get_contents("../config.json");
                 $jsonData = json_decode($jsonData, true);
                

@@ -14,6 +14,7 @@ mysqli_select_db($conn, $dBName);
 
 
 if (!$conn){
+    $_SESSION["connErr"] = mysqli_connect_error;
     print_r("Connection Failed: " . mysqli_connect_error);
     die("Connection Failed: " . mysqli_connect_error);
 };
