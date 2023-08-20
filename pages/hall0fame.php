@@ -10,8 +10,7 @@
     
         <div id="honorsBG">
             <?php
-                print_r("Getting awardees");
-                error_reporting(E_ALL);
+                
                 if(isset($_SESSION["connErr"])){
                     print_r($_SESSION["connErr"]);
                 }
@@ -19,7 +18,7 @@
                 $jsonData = json_decode($jsonData, true);
                
                 require_once '../includes/dbh.inc.php';
-                print_r("Cnnection Gotten");
+               
                 $sql = "SELECT COUNT(*) FROM hof";
                 
                 $stmt = mysqli_stmt_init($conn);
