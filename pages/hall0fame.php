@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="HOF.css">
 
     <body>
-    
+        <meta name="viewport" content="width=device-width, initial-scale=1 minimum-scale=1" />
         <div id="honorsBG">
             <?php
                 
