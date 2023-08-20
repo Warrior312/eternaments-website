@@ -148,7 +148,7 @@ html {
         padding: 2%;
         background-color: #01141a;
         margin: 2%;
-        height: 5vw;
+        height: fit-content;
         width:auto;
         font-size: 3vw;
     }
@@ -171,7 +171,7 @@ html {
         flex-direction: column;
         vertical-align: middle;
         grid-row: 1;
-        width: 18vw;
+        width: fit-content;
         height: 24vw;
         
         animation-duration: 3s;
