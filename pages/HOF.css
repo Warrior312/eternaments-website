@@ -134,7 +134,7 @@ html {
         margin: 5%;
         width: 90vw;
         
-        height: 60vw;
+        height: fit-content;
         overflow:scroll;
         border-radius: 2px;
         border-style: solid;
