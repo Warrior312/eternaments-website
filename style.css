@@ -196,7 +196,7 @@ Input{
 
 .imgHolder{
     display: flex;
-    
+    flex-wrap: wrap;
 }
 
 .flexItems{
