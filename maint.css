@@ -78,8 +78,8 @@ body{
         margin: 0;
         text-align: center;
         width: auto;
-        height: 30vw;
-        width: 40vw;
+        height: 80vw;
+        width: 100vw;
     }
     #vidContainer{
         display: flex;
