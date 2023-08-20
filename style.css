@@ -153,6 +153,7 @@ body {
     .flexItems{
         width: 100% !important;
         text-align: center !important;
+        height: fit-content !important;
     }
     .image{
         height: fit-content !important;
