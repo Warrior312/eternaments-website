@@ -72,7 +72,7 @@
                                 <div class="profImg" style="background-image: url(' . $avatarURL . ');"></div>
                                 <br>
                                 <div id="textContainer">
-                                    <div id="name", style="font-size: 3vw; font-family: monospace;">' . $response["global_name"] .'</div>
+                                    <div id="name", style="font-size: 3vw; font-family: monospace; text-wrap">' . $response["global_name"] .'</div>
                                     <div id="discordHandle" style="font-size: 2vw; font-family: monospace;">' . $response["username"] .'</div>
                                 </div>
                                     
