@@ -8,7 +8,7 @@ $dBName = "eternao4_website_data";
 
 
 
-$conn = mysqli_connect($serverName, $dBUsername);
+$conn = mysqli_connect($serverName, $dBUsername, $dBPassword);
 
 mysqli_select_db($conn, $dBName);
 
