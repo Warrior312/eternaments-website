@@ -8,6 +8,19 @@ body {
 html {
     height: 100%;
 }
+#honorsBG{
+    position: relative;
+    background-color: #011c24;
+    color: white;
+    margin: 5%;
+    width: 90vw;
+    
+    height: 40vw;
+    overflow:scroll;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: #014355;
+}
 
 .awardee{
     display: flex;
@@ -29,10 +42,51 @@ html {
     grid-row: 1;
     width: 16vw;
     height: 22vw;
-    word-wrap: break-word;
+    
     animation-duration: 3s;
     animation-fill-mode: forwards;
     
+}
+
+#name{
+    font-size: 2vw;
+}
+
+#discordId{
+    font-size: 1vw;
+}
+
+
+#awardees{
+    position: relative;
+    margin: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    flex-shrink: 1.5;
+    width: 85vw;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    background-color: transparent;
+}
+
+#title{
+    position: relative;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    padding: 2%;
+    background-color: #01141a;
+    margin: 2%;
+    height: 4vw;
+    width:auto;
+    font-size: 2vw;
 }
 
 #textContainer{
@@ -65,6 +119,68 @@ html {
     animation-name: zoom;
 }
 
+@media only screen and (max-width: 620px) {
+    #name{
+        font-size: 3vw;
+    }
+    
+    #discordId{
+        font-size: 2vw;
+    }
+    #honorsBG{
+        position: relative;
+        background-color: #011c24;
+        color: white;
+        margin: 5%;
+        width: 90vw;
+        
+        height: 60vw;
+        overflow:scroll;
+        border-radius: 2px;
+        border-style: solid;
+        border-color: #014355;
+    }
+    #title{
+        position: relative;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+        padding: 2%;
+        background-color: #01141a;
+        margin: 2%;
+        height: 5vw;
+        width:auto;
+        font-size: 3vw;
+    }
+
+    .awardee{
+        display: flex;
+        position: relative;
+        max-width: fit-content;
+        max-height: auto;
+        padding: 10px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+        text-align: center;
+        background-color: #011217;
+        border-radius: 2px;
+        border-style: solid;
+        border-color: #002d39;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        vertical-align: middle;
+        grid-row: 1;
+        width: 18vw;
+        height: 24vw;
+        
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+        
+    }
+}
+
+
 @keyframes zoom {
     
     to{background-size:135%}
@@ -77,47 +193,3 @@ html {
 }
 
 
-
-#awardees{
-    position: relative;
-    margin: 2%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    flex-shrink: 1.5;
-    width: 85vw;
-}
-
-#honorsBG{
-    position: relative;
-    background-color: #011c24;
-    color: white;
-    margin: 5%;
-    width: 90vw;
-    
-    height: 40vw;
-    overflow:scroll;
-    border-radius: 2px;
-    border-style: solid;
-    border-color: #014355;
-}
-
-::-webkit-scrollbar {
-    width: 0px;
-    height: 0px;
-    background-color: transparent;
-}
-
-#title{
-    position: relative;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    color: white;
-    padding: 2%;
-    background-color: #01141a;
-    margin: 2%;
-    height: 4vw;
-    width:auto;
-    font-size: 2vw;
-}
