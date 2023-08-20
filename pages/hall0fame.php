@@ -18,7 +18,7 @@
                 $jsonData = file_get_contents("../config.json");
                 $jsonData = json_decode($jsonData, true);
                
-                require_once '/includes/dbh.inc.php';
+                require_once '../includes/dbh.inc.php';
                 print_r("Cnnection Gotten");
                 $sql = "SELECT COUNT(*) FROM hof";
                 
