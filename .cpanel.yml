@@ -10,7 +10,7 @@ deployment:
     - /bin/cp -R ./node_modules $DEPLOYPATH
     - /bin/cp -R favicon.ico $DEPLOYPATH
     - /bin/cp -R app.js $DEPLOYPATH
-    - /bin/cp -R maintenance.html $DEPLOYPATH
+    - /bin/cp -R maintenance.php $DEPLOYPATH
     - /bin/cp -R maint.css $DEPLOYPATH
 
     
