@@ -10,5 +10,5 @@ deployment:
     - /bin/cp -R ./node_modules $DEPLOYPATH
     - /bin/cp -R favicon.ico $DEPLOYPATH
     - /bin/cp -R app.js $DEPLOYPATH
-    - /bin/cp -R config.json $DEPLOYPATH
+
     
