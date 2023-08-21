@@ -1,11 +1,10 @@
-
 <?php
     require_once '../includes/maint.inc.php'
 ?>
-<!DOCTYPE html>
+
 <link rel="stylesheet" href="staff.css">
 <html>
-    
+<!DOCTYPE html>
 <head>
 	<title>eternaments.com</title>
   

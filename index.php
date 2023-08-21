@@ -1,5 +1,4 @@
 <?php
-
     require_once 'includes/maint.inc.php'
 ?>
 <link rel="stylesheet" href="style.css">
