@@ -21,10 +21,6 @@
     $rows = mysqli_stmt_get_result($stmt);
     $rows = mysqli_fetch_all($rows);
     print_r($rows);
-    if($rows[1][2] === 1){
-        print_r("Should move.");
-    }
-
 ?>
 <body>
 <meta name="viewport" content="width=device-width, initial-scale=1 minimum-scale=1" />
