@@ -15,9 +15,9 @@
     print_r("Should have started.");
     
     require_once 'includes/dbh.inc.php';
-    print_r("Database connected");
+    
     $sql = "SELECT * FROM sys";
-    print_r("Sql prepared");
+    
     $stmt = mysqli_stmt_init($conn);
     if (!mysqli_stmt_prepare($stmt, $sql)){
        print_r("errored");
@@ -26,7 +26,11 @@
         mysqli_stmt_execute($stmt);
         $rows = mysqli_stmt_get_result($stmt);
         $rows = mysqli_fetch_all($rows);
-        print_r($rows);
+        
+        if($rows[1][1] === 1){
+            header("location: maintenance.php");
+            exit();
+        }
     }
     
 ?>
