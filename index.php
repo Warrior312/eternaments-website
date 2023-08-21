@@ -6,14 +6,14 @@
 	<title>eternaments.com</title>
     <script defer src="app.js"></script>
 </head>
-<?php include_once 'pages/header.php'?>
+<?php ob_start(); include_once 'pages/header.php'; ob_end_flush();?>
 
 
 <body>
 <meta name="viewport" content="width=device-width, initial-scale=1 minimum-scale=1" />
 <?php 
     
-    
+    ob_start();
     require_once 'includes/dbh.inc.php';
     
     $sql = "SELECT * FROM sys";
@@ -28,7 +28,7 @@
         $rows = mysqli_fetch_all($rows);
         
         if($rows[0][1] == 1){
-            ob_start();
+            
 
 
             header("location: /maintenance.php", true);
