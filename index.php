@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <?php 
     ob_start();
-    require_once 'includes/dbh.inc.php';
-    
+    require_once '/includes/dbh.inc.php';
+    print_r("Should have started");
     $sql = "SELECT * FROM sys";
     
     $stmt = mysqli_stmt_init($conn);
     if (!mysqli_stmt_prepare($stmt, $sql)){
        print_r("errored");
-       exit();
+       
     }
     mysqli_stmt_execute($stmt);
     $rows = mysqli_stmt_get_result($stmt);
@@ -18,7 +18,7 @@
         
         header("location: maintenance.php", true);
         ob_end_flush();
-        exit();
+        
     }
 
     
