@@ -1,3 +1,7 @@
+<?php
+
+    require_once 'includes/maint.inc.php'
+?>
 <html>
     <!DOCTYPE html>
     <?php

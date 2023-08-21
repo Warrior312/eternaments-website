@@ -1,3 +1,8 @@
+<?php
+
+    require_once 'includes/maint.inc.php'
+?>
+
 <html>
     <?php
         require_once "header.php";

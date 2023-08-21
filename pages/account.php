@@ -1,4 +1,8 @@
 <?php
+
+    require_once 'includes/maint.inc.php'
+?>
+<?php
     
     if(!isset($_SESSION)){
         session_start();
