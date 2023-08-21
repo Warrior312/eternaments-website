@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <link rel="stylesheet" href="style.css">
 <html>
-
-<head>
-	<title>eternaments.com</title>
-    <script defer src="app.js"></script>
-</head>
 <?php 
     
     ob_start();
@@ -26,13 +21,18 @@
             
 
 
-            header("location: http://eternaments.com/maintenance.php", true);
+            header("location: maintenance.php", true);
             ob_end_flush();
             exit();
         }
     }
     
 ?>
+<head>
+	<title>eternaments.com</title>
+    <script defer src="app.js"></script>
+</head>
+
 
 <?php ob_start(); include_once 'pages/header.php'; ob_end_flush();?>
 
