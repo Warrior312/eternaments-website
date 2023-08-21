@@ -14,7 +14,7 @@
 <?php 
     print_r("Should have started.");
     
-    require_once '/includes/dbh.inc.php';
+    require_once 'includes/dbh.inc.php';
     print_r("Database connected");
     $sql = "SELECT * FROM sys";
     print_r("Sql prepared");
