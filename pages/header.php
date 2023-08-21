@@ -11,7 +11,8 @@
     $rows = mysqli_fetch_all($rows);
     print_r($rows);
     if($rows[1][2] === 1){
-        header("location: ../maintenance.php");
+        
+        print_r("Should move.");
     }
     error_reporting(0);
     if(!isset($_SESSION)) 
