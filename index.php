@@ -12,18 +12,23 @@
 <body>
 <meta name="viewport" content="width=device-width, initial-scale=1 minimum-scale=1" />
 <?php 
+    print_r("Should have started.");
     error_reporting(E_ALL);
     require_once '/includes/dbh.inc.php';
+    print_r("Database connected");
     $sql = "SELECT * FROM sys";
-
+    print_r("Sql prepared");
     $stmt = mysqli_stmt_init($conn);
     if (!mysqli_stmt_prepare($stmt, $sql)){
        print_r("errored");
+       exit();
+    }else{
+        mysqli_stmt_execute($stmt);
+        $rows = mysqli_stmt_get_result($stmt);
+        $rows = mysqli_fetch_all($rows);
+        print_r($rows);
     }
-    mysqli_stmt_execute($stmt);
-    $rows = mysqli_stmt_get_result($stmt);
-    $rows = mysqli_fetch_all($rows);
-    print_r($rows);
+    
 ?>
 
 
