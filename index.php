@@ -1,7 +1,8 @@
-<!DOCTYPE html>
+
+ob_start();
 <link rel="stylesheet" href="style.css">
 <html>
-
+<!DOCTYPE html>
 <head>
 	<title>eternaments.com</title>
     <script defer src="app.js"></script>
@@ -28,8 +29,9 @@
         $rows = mysqli_fetch_all($rows);
         
         if($rows[0][1] == 1){
-            print_r("Moving");
+            
             header("location: maintenance.php");
+            print_r("Moving");
             exit();
         }
     }
