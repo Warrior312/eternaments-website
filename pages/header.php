@@ -1,24 +1,12 @@
 <?php
-    require_once 'dbh.inc.php';
-    $sql = "SELECT * FROM system";
-                
-    $stmt = mysqli_stmt_init($conn);
-    if (!mysqli_stmt_prepare($stmt, $sql)){
-       print_r("errored");
-    }
-    mysqli_stmt_execute($stmt);
-    $rows = mysqli_stmt_get_result($stmt);
-    $rows = mysqli_fetch_all($rows);
-    print_r($rows);
-    if($rows[1][2] === 1){
-        
-        print_r("Should move.");
-    }
+   
+   
     error_reporting(0);
     if(!isset($_SESSION)) 
     { 
         session_start(); 
     } 
+    require_once 'dbh.inc.php';
     
     if(!$_SESSION['logged_in']){
         //do nothing
