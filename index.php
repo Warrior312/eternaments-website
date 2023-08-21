@@ -9,7 +9,7 @@
 <?php include_once 'pages/header.php'?>
 
 <?php 
-
+    error_reporting(E_ALL);
     require_once 'dbh.inc.php';
     $sql = "SELECT * FROM sys";
 
