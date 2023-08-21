@@ -13,7 +13,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1 minimum-scale=1" />
 <?php 
     print_r("Should have started.");
-    error_reporting(E_ALL);
+    
     require_once '/includes/dbh.inc.php';
     print_r("Database connected");
     $sql = "SELECT * FROM sys";
