@@ -1,7 +1,6 @@
 
 <?php
-
-    require_once 'includes/maint.inc.php'
+    require_once '../includes/maint.inc.php'
 ?>
 <!DOCTYPE html>
 <link rel="stylesheet" href="staff.css">

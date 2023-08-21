@@ -1,6 +1,5 @@
 <?php
-
-    require_once 'includes/maint.inc.php'
+    require_once '../includes/maint.inc.php'
 ?>
 <?php
     

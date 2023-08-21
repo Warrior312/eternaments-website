@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="signup.css">
 <?php
-    require_once 'includes/maint.inc.php'
+    require_once '../includes/maint.inc.php'
 ?>
 <?php
     header("location: /pages/comingsoon.php");
