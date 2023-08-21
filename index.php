@@ -1,28 +1,4 @@
 <!DOCTYPE html>
-<?php 
-    ob_start();
-    require_once '/includes/dbh.inc.php';
-    print_r("Should have started");
-    $sql = "SELECT * FROM sys";
-    
-    $stmt = mysqli_stmt_init($conn);
-    if (!mysqli_stmt_prepare($stmt, $sql)){
-       print_r("errored");
-       
-    }
-    mysqli_stmt_execute($stmt);
-    $rows = mysqli_stmt_get_result($stmt);
-    $rows = mysqli_fetch_all($rows);
-    
-    if($rows[0][1] == 1){
-        
-        header("location: maintenance.php", true);
-        ob_end_flush();
-        
-    }
-
-    
-?>
 <link rel="stylesheet" href="style.css">
 <html>
 
@@ -30,14 +6,35 @@
 	<title>eternaments.com</title>
     <script defer src="app.js"></script>
 </head>
-
-
-<?php ob_start(); include_once 'pages/header.php'; ob_end_flush();?>
+<?php include_once 'pages/header.php'?>
 
 
 <body>
 <meta name="viewport" content="width=device-width, initial-scale=1 minimum-scale=1" />
-
+<?php 
+    
+    
+    require_once 'includes/dbh.inc.php';
+    
+    $sql = "SELECT * FROM sys";
+    
+    $stmt = mysqli_stmt_init($conn);
+    if (!mysqli_stmt_prepare($stmt, $sql)){
+       
+       exit();
+    }else{
+        mysqli_stmt_execute($stmt);
+        $rows = mysqli_stmt_get_result($stmt);
+        $rows = mysqli_fetch_all($rows);
+        
+        if($rows[0][1] == 1){
+            print_r("Moving");
+            header("location: maintenance.php");
+            exit();
+        }
+    }
+    
+?>
 
 
 
