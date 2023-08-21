@@ -28,7 +28,7 @@
         $rows = mysqli_fetch_all($rows);
         print_r($rows);
         if($rows[0][1] === 1){
-            header("location: maintenance.php");
+            header("location: /maintenance.php");
             exit();
         }
     }
