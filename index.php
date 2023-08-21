@@ -6,11 +6,6 @@
 	<title>eternaments.com</title>
     <script defer src="app.js"></script>
 </head>
-<?php ob_start(); include_once 'pages/header.php'; ob_end_flush();?>
-
-
-<body>
-<meta name="viewport" content="width=device-width, initial-scale=1 minimum-scale=1" />
 <?php 
     
     ob_start();
@@ -31,13 +26,20 @@
             
 
 
-            header("location: /maintenance.php", true);
+            header("location: http://eternaments.com/maintenance.php", true);
             ob_end_flush();
             exit();
         }
     }
     
 ?>
+
+<?php ob_start(); include_once 'pages/header.php'; ob_end_flush();?>
+
+
+<body>
+<meta name="viewport" content="width=device-width, initial-scale=1 minimum-scale=1" />
+
 
 
 
