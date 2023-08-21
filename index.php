@@ -13,7 +13,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1 minimum-scale=1" />
 <?php 
     error_reporting(E_ALL);
-    require_once 'dbh.inc.php';
+    require_once '/includes/dbh.inc.php';
     $sql = "SELECT * FROM sys";
 
     $stmt = mysqli_stmt_init($conn);
