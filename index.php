@@ -12,7 +12,7 @@
 <body>
 <meta name="viewport" content="width=device-width, initial-scale=1 minimum-scale=1" />
 <?php 
-    print_r("Should have started.");
+    
     
     require_once 'includes/dbh.inc.php';
     
