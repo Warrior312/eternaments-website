@@ -31,9 +31,9 @@
                     function onYouTubePlayerReady(event) {
                         event.target.playVideo();
                     }
-                    var done = false;
+                    
                     function onYouTubePlayerStateChange(event) {
-                        if (event.data == YT.PlayerState.PLAYING && !done) {
+                        if (event.data == YT.PlayerState.PLAYING) {
                             $('.scrollable').addClass("scroll");
                         }
                     }
