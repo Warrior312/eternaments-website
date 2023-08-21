@@ -29,7 +29,7 @@
         print_r($rows);
         if($rows[0][1] == 1){
             print_r("Moving");
-            header("location: /maintenance.php");
+            header("location: maintenance.php");
             exit();
         }
     }
