@@ -19,8 +19,6 @@
             header("location: https://eternaments.com/maintenance.php");
             
             exit();
-        }else{
-            exit();
         }
     }
     
