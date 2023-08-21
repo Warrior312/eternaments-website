@@ -10,7 +10,7 @@
 
 <?php 
     error_reporting(E_ALL);
-    require_once 'dbh.inc.php';
+    
     $sql = "SELECT * FROM sys";
 
     $stmt = mysqli_stmt_init($conn);
