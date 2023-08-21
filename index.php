@@ -28,8 +28,11 @@
         $rows = mysqli_fetch_all($rows);
         
         if($rows[0][1] == 1){
-            
+            ob_start();
+
+
             header("location: /maintenance.php", true);
+            ob_end_flush();
             exit();
         }
     }
