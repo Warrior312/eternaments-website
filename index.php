@@ -13,11 +13,6 @@
 
 
 
-
-
-
-
-
 <div id="parallax"></div>
 
 <script>

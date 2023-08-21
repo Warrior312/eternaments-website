@@ -6,7 +6,7 @@
     { 
         session_start(); 
     } 
-    require_once 'dbh.inc.php';
+    
     
     if(!$_SESSION['logged_in']){
         //do nothing
