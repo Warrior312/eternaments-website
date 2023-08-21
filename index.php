@@ -29,7 +29,7 @@
         
         if($rows[0][1] == 1){
             
-            header("location: maintenance.php");
+            header("location: maintenance.php", true);
             exit();
         }
     }
