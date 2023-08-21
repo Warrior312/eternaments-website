@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="style.css">
-<html>
 <?php 
-    
     ob_start();
     require_once 'includes/dbh.inc.php';
     
@@ -12,22 +9,23 @@
     if (!mysqli_stmt_prepare($stmt, $sql)){
        print_r("errored");
        exit();
-    }else{
-        mysqli_stmt_execute($stmt);
-        $rows = mysqli_stmt_get_result($stmt);
-        $rows = mysqli_fetch_all($rows);
-        
-        if($rows[0][1] == 1){
-            
-
-
-            header("location: maintenance.php", true);
-            ob_end_flush();
-            exit();
-        }
     }
+    mysqli_stmt_execute($stmt);
+    $rows = mysqli_stmt_get_result($stmt);
+    $rows = mysqli_fetch_all($rows);
+    
+    if($rows[0][1] == 1){
+        
+        header("location: maintenance.php", true);
+        ob_end_flush();
+        exit();
+    }
+
     
 ?>
+<link rel="stylesheet" href="style.css">
+<html>
+
 <head>
 	<title>eternaments.com</title>
     <script defer src="app.js"></script>
