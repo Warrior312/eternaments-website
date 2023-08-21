@@ -42,6 +42,24 @@ body{
     text-align: center;
 }
 
+.scroll{
+    animation-name: scroll;
+    animation-duration: 20s;
+}
+
+
+@keyframes scroll {
+    0%{
+        top : 0
+    }
+    50%{
+        top: 200
+    }
+    100%{
+        top: 0
+    }
+}
+
 #img{
     width: 8vw;
     
