@@ -26,9 +26,9 @@
         mysqli_stmt_execute($stmt);
         $rows = mysqli_stmt_get_result($stmt);
         $rows = mysqli_fetch_all($rows);
-        print_r($rows);
+        
         if($rows[0][1] == 1){
-            print_r("Moving");
+            
             header("location: maintenance.php");
             exit();
         }
