@@ -13,6 +13,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1 minimum-scale=1" />
 
+<!--- set up a playercard hotlink --->
 <?php include_once '../pages/header.php'?>
 <div id="staffMembers" style="padding-top: 20px; padding-bottom: 20px;">
     <div id="department">
@@ -238,16 +239,6 @@
         <div id="staffInfo">
             
         
-        <div class="staffMember">
-            
-            <br>
-            <div class="profImg" style="background-image: url( /img/floppa.jpg);"></div>
-            
-            <br>
-            <div id="name", style="font-size: 30px; font-family: monospace;">BigFloppa</div>
-            <div id="discordHandle" style="font-size: 20px; font-family: monospace;">dabigfloppa</div>
-            <div id="title" style="font-size: 14px; font-family: monospace;">Director of Legal and Compliance</div>
-        </div>
         
     </div>
     </div>
