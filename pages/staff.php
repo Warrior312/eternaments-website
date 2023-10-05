@@ -239,6 +239,16 @@
         <div id="staffInfo">
             
         
+        <div class="staffMember">
+            
+            <br>
+            <div class="profImg" style="background-image: url( /img/floppa.jpg);"></div>
+            
+            <br>
+            <div id="name", style="font-size: 30px; font-family: monospace;">BigFloppa</div>
+            <div id="discordHandle" style="font-size: 20px; font-family: monospace;">dabigfloppa</div>
+            <div id="title" style="font-size: 14px; font-family: monospace;">Director of Legal and Compliance</div>
+        </div>
         
     </div>
     </div>
