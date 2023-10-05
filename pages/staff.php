@@ -54,7 +54,7 @@
             <div id="title" style="font-size: 14px; font-family: monospace;">Director of Operations</div>
             <div id="honors" style="font-size: 10px; font-family: monospace; color:blueviolet; text-align: center; padding-top: 5px;">Founder</div>
         </div>
-        
+        <!---
         <div class="staffMember">
             
             <br>
@@ -65,6 +65,7 @@
             <div id="discordHandle" style="font-size: 20px; font-family: monospace;">ceriel03</div>
             <div id="title" style="font-size: 14px; font-family: monospace;">Tournament Director</div>
         </div>
+        --->
         <div class="staffMember">
             
             <br>
