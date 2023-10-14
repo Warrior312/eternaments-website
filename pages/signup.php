@@ -13,24 +13,21 @@
     } 
     if(isset($_GET["error"])){
         if ($_GET["error"] == "emptyinput"){
+            // if user didn't fill out all fields, display this error 
             $fillErr = "Please fill out all fields.";
-           
         }
         if ($_GET["error"] == "invaliduser"){
-
-            
-
+            // if the username is already taken, display this error message
             $nameErr = "This username is already taken.";
-            
         }
         if ($_GET["error"] == "passnomatch"){
+            // if passwords don't match, set passwordError to this
             $passRepErr = "Passwords do not match.";
             
         }
         if ($_GET["error"] == "passinval"){
-            
+            // if there's an issue with the password, set SESSION err to passError
             $passErr = $_SESSION["passError"];
-            
         }
         
     }

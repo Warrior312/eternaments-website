@@ -1,0 +1,45 @@
+Hey Babypotato!
+
+Welcome to the team. (again)
+
+
+First things first. You're going to need to install PHP to test run this site.
+
+Please go to https://www.php.net/ and install the software.
+
+Once installed, (and once you're in the eternaments-website directory), you should be able to run the following command.
+
+php -S 127.0.0.1:(any open port number on your network)
+
+Replace the text in parentheses with a port number. I myself use 8000.
+
+
+The primary coding language that this website is written in is PHP. PHP, (if you don't already know) is a language that is used for backend server-data handling. 
+
+It's formatted EXACTLY the same as HTML, but you can insert inline code into HTML.
+
+PHP code is wrapped by the following.
+
+<?php 
+    yourCodeHere;
+?>
+
+Otherwise, treat the PHP files as HTML.
+
+
+Additionally, the website is being managed by a hostmonster CPANEL account. MySQL goes through that.
+
+Locally, please be sure to keep the workspace organized (even though I know mine isn't exactly the most prime example of that)
+
+Meaning, keep new pages (such as signup page), under the pages folder, and vise versa. Keep images in the img folder, if possible.
+
+Additionally, I know comments might be sparse in my code. I'll try to put in some more comments for you as necessary- but please feel free to reach out for help if something doesn't make sense.
+
+
+Remember to push git updates regularly. (git push origin master for the main branch)
+
+
+
+Thanks and happy developing,
+
+Warrior

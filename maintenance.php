@@ -20,3 +20,4 @@ The Eternaments Team
     </body>
 </html>
 
+<!--- This is the maintenance page. Only appears when the MYSQL database has 1 in the 'maint' row. ---> 

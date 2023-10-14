@@ -11,7 +11,6 @@
     if(!$_SESSION['logged_in']){
         //do nothing
     }else{
-       
         extract($_SESSION['userData']);
         $avatar_url = "https://cdn.discordapp.com/avatars/$discordId/$avatar.jpg";
     }
