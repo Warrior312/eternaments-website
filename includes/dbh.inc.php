@@ -2,7 +2,7 @@
 
 $serverName = "localhost:3306";
 $dBUsername = "eternao4_admin";
-$dBPassword = "vKZcHnMDbkC2ZIBO"; //vKZcHnMDbkC2ZIBO 
+$dBPassword = "lvz)9ArEnfu2"; //vKZcHnMDbkC2ZIBO 
 $dBName = "eternao4_website_data";
 
 
@@ -18,3 +18,5 @@ if (!$conn){
     print_r("Connection Failed: " . mysqli_connect_error);
     die("Connection Failed: " . mysqli_connect_error);
 };
+
+?>
