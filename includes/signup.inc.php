@@ -1,4 +1,5 @@
 <?php
+
 if(!isset($_SESSION)) 
 { 
     session_start(); 
@@ -6,7 +7,6 @@ if(!isset($_SESSION))
 if(isset($_SESSION['userData'])){
     extract($_SESSION['userData']);
 }
-
 
 if (isset($_POST["compsign"])){
 
@@ -79,7 +79,6 @@ if (isset($_POST["compsign"])){
     
 }
 
-
 if (isset($_POST["login"])){
     require_once 'dbh.inc.php';
     if(!isset($_SESSION)) 
@@ -92,14 +91,11 @@ if (isset($_POST["login"])){
         header("location: /pages/signup.php?error=stmtfailed");
         exit();
     }
-
     
     $userName = $_POST["userName"];
     mysqli_stmt_bind_param($statement, "s", $userName);
     mysqli_stmt_execute($statement);
     $resultData = mysqli_stmt_get_result($statement);
-
-   
     
     if($row = mysqli_fetch_assoc($resultData)){
         if (password_verify( $_POST["passWord"], $row["usersPwd"]) == true){
@@ -110,10 +106,6 @@ if (isset($_POST["login"])){
             ];
             $_SESSION['logged_in'] = true;
             
-                
-            
-            
-           
             mysqli_stmt_close($statement);
             header("location: /pages/account.php");
             exit();
@@ -129,6 +121,6 @@ if (isset($_POST["login"])){
         exit(); 
     }
     
-   
-    
 }
+
+?>

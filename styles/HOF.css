@@ -1,0 +1,205 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  overflow-x: hidden;
+  margin: 0px;
+}
+html {
+  height: 100%;
+}
+#honorsBG {
+  position: relative;
+  background-color: #011c24;
+  color: white;
+  margin: 5%;
+  width: 90vw;
+
+  height: 40vw;
+  overflow: scroll;
+  border-radius: 2px;
+  border-style: solid;
+  border-color: #014355;
+}
+
+.awardee {
+  display: flex;
+  position: relative;
+  max-width: fit-content;
+  max-height: auto;
+  padding: 10px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  background-color: #011217;
+  border-radius: 2px;
+  border-style: solid;
+  border-color: #002d39;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  vertical-align: middle;
+  grid-row: 1;
+  width: 16vw;
+  height: 22vw;
+
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+#name {
+  font-size: 2vw;
+}
+
+#discordId {
+  font-size: 1vw;
+}
+
+#awardees {
+  position: relative;
+  margin: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  flex-shrink: 1.5;
+  width: 85vw;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  background-color: transparent;
+}
+
+#title {
+  position: relative;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  padding: 2%;
+  background-color: #01141a;
+  margin: 2%;
+  height: 4vw;
+  width: auto;
+  font-size: 2vw;
+}
+
+#textContainer {
+  width: fit-content;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+.staffMember:hover,
+element:active {
+  animation-name: glow;
+}
+
+.profImg {
+  zoom: 100%;
+  animation-fill-mode: forwards;
+  animation-duration: 3s;
+  background-image: attr(profileImage);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  border-radius: 50%;
+  height: 7vw;
+  width: 7vw;
+}
+
+.awardee:hover .profImg {
+  animation-name: zoom;
+}
+
+@media only screen and (max-width: 620px) {
+  #name {
+    font-size: 4vw;
+  }
+
+  #discordId {
+    font-size: 3vw;
+  }
+  .profImg {
+    zoom: 100%;
+    animation-fill-mode: forwards;
+    animation-duration: 3s;
+    background-image: attr(profileImage);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    border-radius: 50%;
+    height: 15vw;
+    width: 15vw;
+  }
+  #honorsBG {
+    position: relative;
+    background-color: #011c24;
+    color: white;
+    margin: 5%;
+    width: 90vw;
+
+    height: fit-content;
+    overflow: scroll;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: #014355;
+  }
+  #title {
+    position: relative;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    color: white;
+    padding: 2%;
+    background-color: #01141a;
+    margin: 2%;
+    height: fit-content;
+    width: auto;
+    font-size: 4vw;
+  }
+
+  .awardee {
+    display: flex;
+    position: relative;
+    max-width: fit-content;
+    max-height: auto;
+    padding: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    background-color: #011217;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: #002d39;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    vertical-align: middle;
+    grid-row: 1;
+    width: fit-content;
+    height: 48vw;
+
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+  }
+  .staffMember:hover,
+  element:active {
+    animation-name: glow;
+  }
+}
+
+@keyframes zoom {
+  to {
+    background-size: 135%;
+  }
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0px 0px 0px #06ffff;
+  }
+  to {
+    box-shadow: 0px 0px 30px #06ffff;
+  }
+}

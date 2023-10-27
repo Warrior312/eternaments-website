@@ -1,0 +1,125 @@
+html {
+  height: 100%;
+}
+body {
+  max-height: 100%;
+  max-width: 100%;
+  background-color: #000000;
+  overflow-x: hidden;
+  margin: 0px;
+}
+
+.break {
+  width: 100%;
+}
+
+#signupWrapper {
+  background-color: #181818;
+
+  height: 75%;
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+
+  align-content: center;
+
+  border-radius: 20px;
+  justify-content: center;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+#logSignform {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
+
+  height: 80%;
+}
+::placeholder {
+  color: black;
+}
+.signIn input {
+  align-items: center;
+  justify-self: center;
+  text-indent: 1%;
+  width: 100%;
+  height: 60px;
+  padding-top: 35px;
+  text-align: left;
+  background-color: #181818;
+  outline: none;
+  color: white;
+  font-family: monospace;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid 4px black;
+  transition: 0.5s;
+}
+
+.signIn label {
+  position: relative;
+  top: -25%;
+  left: 5px;
+  color: white;
+  opacity: 0.4;
+  transition: 0.5s;
+  font-weight: bold;
+  font-family: monospace;
+}
+.signIn input:focus ~ label,
+.signIn input:valid ~ label {
+  top: -40%;
+  color: #04ffff;
+}
+
+#signInTitle {
+  padding: 20px;
+  color: white;
+  font-family: monospace;
+  text-align: center;
+  font-size: 20px;
+}
+
+.error {
+  width: 90%;
+  height: 20px;
+  margin: none;
+  color: red;
+  text-align: left;
+  font-family: monospace;
+  position: relative;
+}
+
+.signIn {
+  width: 90%;
+}
+
+.signIn:focus {
+  outline: none;
+}
+
+#signupContainer {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#logIn {
+  width: 50%;
+
+  height: 100%;
+}
+
+#signUpmain {
+  width: 50%;
+  height: 100%;
+  background-color: white;
+}
