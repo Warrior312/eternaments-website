@@ -1,4 +1,4 @@
-<?php require_once '../includes/maint.inc.php'?>
+<?php require_once 'includes/maint.inc.php'?>
 
 <!DOCTYPE html>
 
@@ -15,12 +15,7 @@
 
     <div id="parallax"></div>
     
-    <!-- Secret Form
-    <form class="secretForm" autocapitalize="off" autocomplete="off">
-        <input type="text" id="secretInput" name="si">
-    </form>
-    -->
-
+  
     <div id="aboutUs">
 
         <h1 id="title" class="hidden" style="padding-bottom: 50px;">Who are we?</h1>
