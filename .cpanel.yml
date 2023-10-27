@@ -10,5 +10,6 @@ deployment:
     - /bin/cp -R ./styles $DEPLOYPATH
     - /bin/cp -R ./scripts $DEPLOYPATH
     - /bin/cp -R favicon.ico $DEPLOYPATH
+    - /bin/cp -R style.css $DEPLOYPATH
 
     
