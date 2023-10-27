@@ -3,7 +3,6 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home3/eternao4/public_html/
     - /bin/cp index.php $DEPLOYPATH
-    - /bin/cp style.css $DEPLOYPATH
     - /bin/cp -R ./img $DEPLOYPATH
     - /bin/cp -R ./pages $DEPLOYPATH
     - /bin/cp -R ./includes $DEPLOYPATH
