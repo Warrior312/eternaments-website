@@ -8,6 +8,7 @@ deployment:
     - /bin/cp -R ./includes $DEPLOYPATH
     - /bin/cp -R ./node_modules $DEPLOYPATH
     - /bin/cp -R ./styles $DEPLOYPATH
+    - /bin/cp -R ./scripts $DEPLOYPATH
     - /bin/cp -R favicon.ico $DEPLOYPATH
 
     
