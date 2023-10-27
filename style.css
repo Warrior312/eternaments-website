@@ -100,7 +100,8 @@ body {
     width: auto;
     margin: 2%;
     background-color: #000507;
-    background-image: url("../img/0.gif");
+    background-image: url("img/0.gif");
+  
     background-attachment: fixed;
     background-position-x: center;
     background-position-y: 4%;
@@ -204,7 +205,7 @@ Input {
 }
 
 #firstImageimg {
-  background-image: url("../img/header.jpg");
+  background-image: url("img/header.jpg");
   height: 100%;
   width: 100%;
   background-position: right;
@@ -214,7 +215,7 @@ Input {
 }
 
 #secondImageimg {
-  background-image: url("../img/IMAGE_3.jpg");
+  background-image: url("img/IMAGE_3.jpg");
   height: 100%;
   width: 100%;
   background-position: left;
@@ -223,7 +224,7 @@ Input {
 }
 
 #thirdImageimg {
-  background-image: url("../img/QD2spX.png");
+  background-image: url("img/QD2spX.png");
   height: 100%;
   width: 100%;
   background-position: right;
@@ -232,7 +233,7 @@ Input {
 }
 
 #fourthImageimg {
-  background-image: url("../img/breachers.png");
+  background-image: url("img/breachers.png");
   height: 100%;
   width: 100%;
   background-position: left;
