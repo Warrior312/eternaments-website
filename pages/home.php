@@ -1,4 +1,4 @@
-<?php require_once 'includes/maint.inc.php'?>
+<?php require_once '../includes/maint.inc.php'?>
 
 <!DOCTYPE html>
 
