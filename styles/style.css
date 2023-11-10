@@ -1,241 +1,26 @@
+@font-face {
+  font-family: monospace;
+  src: url(fonts/monospace.ttf);
+}
+
+* {
+  color: white;
+  box-sizing: border-box;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: monospace;
+  font-size: 1vw;
+  user-select: none;
+  list-style: none;
+}
+
 html {
   height: 100%;
 }
-.hidden {
-  opacity: 0;
-  filter: blur(3px);
-
-  transition: all 0.75s;
-}
-.show {
-  opacity: 1;
-  filter: blur(0);
-}
-@font-face {
-  font-family: monospaceProper;
-  src: url("fonts/monospace.ttf");
-}
-@media only screen and (max-width: 620px) {
-  .hidden {
-    opacity: 1;
-    filter: none;
-  }
-}
 
 body {
-  height: 100%;
-
-  width: 100%;
-
-  background-color: #000000;
-
-  overflow-x: hidden;
-  margin: 0px;
-}
-
-#topnav {
-  position: relative;
-  background-color: #011217;
-  z-index: 4;
-  display: block;
-  font-family: Calibri, sans-serif;
-  height: fit-content;
-}
-
-#parallax {
-  padding: 0%;
-
-  display: block;
-  height: 80%;
-  width: auto;
-  margin: 2%;
-  background-color: #000507;
-  background-image: url("../img/0.gif");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 80vw;
-  z-index: -5;
-}
-
-#invite {
-  display: block;
-  position: relative;
-  top: -20px;
-  text-align: center;
-  text-decoration: none;
-  color: white;
-  background-color: #022121;
-  width: 100%;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  border-radius: 20px;
-}
-#aboutUs {
-  display: block;
-  color: white;
-  position: relative;
-  height: 50vw;
-  width: 100%;
-  place-items: center;
-  align-content: center;
-  text-align: center;
-  font-size: 2.5vw;
-  font-family: monospace;
-}
-
-.flexItems {
-  margin: 1vw;
-}
-
-.imgHolder {
-  display: flex;
-}
-
-@media only screen and (max-width: 620px) {
-  #parallax {
-    padding: 0%;
-
-    display: block;
-    height: 40%;
-    width: auto;
-    margin: 2%;
-    background-color: #000507;
-    background-image: url("../img/0.gif");
-    background-attachment: fixed;
-    background-position-x: center;
-    background-position-y: 4%;
-    background-repeat: no-repeat;
-    background-size: 90vw;
-    z-index: -5;
-  }
-  .imgHolder {
-    display: flex;
-    flex-wrap: wrap;
-    height: fit-content;
-  }
-  #aboutUs {
-    display: block;
-    color: white;
-    position: relative;
-    height: 50vw;
-    width: 100%;
-    place-items: center;
-    align-content: center;
-    text-align: center;
-    font-size: 5vw;
-    font-family: monospace;
-  }
-
-  #invite {
-    display: block;
-    position: relative;
-    top: -20px;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    background-color: #022121;
-    width: 100%;
-    height: 10vw;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
-    line-height: 10vw;
-  }
-  .flexItems {
-    width: 100% !important;
-    text-align: center !important;
-    height: 40vw !important;
-  }
-
-  .imgHolder {
-    margin-bottom: 3vw;
-    margin-top: 3vw;
-    margin-right: 0;
-    margin-left: 0;
-    padding: 2%;
-  }
-
-  .imageholders {
-    height: 100% !important;
-  }
-  .paragraphs {
-    height: fit-content !important;
-  }
-}
-
-Input {
-  position: absolute;
-  left: 20px;
-  top: 125%;
-  background-color: #000000;
-  border-color: #000000;
-  z-index: 5;
-  outline: none;
-  border: none;
-  color: #0d0d0d;
-}
-
-#secretInput:focus {
-  outline: none;
-}
-
-#topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-#topnav a:hover {
-  background-color: #ddd;
-  color: #3f3f3f;
-}
-
-#topnav a.active {
-  background-color: #015d77;
-  color: white;
-}
-
-#content {
-  margin-left: 10px;
-  margin-right: 10px;
-  padding-top: 40px;
-}
-
-#firstImageimg {
-  background-image: url("../img/header.jpg");
-  height: 100%;
-  width: 100%;
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: 150%;
-  overflow-x: hidden;
-}
-
-#secondImageimg {
-  background-image: url("../img/IMAGE_3.jpg");
-  height: 100%;
-  width: 100%;
-  background-position: left;
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-
-#thirdImageimg {
-  background-image: url("../img/QD2spX.png");
-  height: 100%;
-  width: 100%;
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-
-#fourthImageimg {
-  background-image: url("../img/breachers.png");
-  height: 100%;
-  width: 100%;
-  background-position: left;
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background: #000;
+  min-height: 100%;
 }

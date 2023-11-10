@@ -1,0 +1,111 @@
+#background{
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+}
+
+#background-images {
+    position: fixed;
+    width: 80%;
+    right: 10%;
+    top: 5%;
+}
+#background-images > * {
+    width: 80%;
+    height: 90%;
+    position: fixed;
+    overflow: hidden;
+    box-shadow: 0 0 3vw 3vw black inset;
+    z-index: -2;
+    border-radius: 4vw;
+}
+
+#background1 {
+    background: url(../img/Home_Backgrounds/logo_gif.gif);
+    background-size: cover;
+    background-position: center;
+}
+#background2 {
+    background: url(../img/Home_Backgrounds/echo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#background3 {
+    background: url(../img/Home_Backgrounds/breachers.png);
+    background-size: cover;
+    background-position: center;
+}
+#background4 {
+    background: url(../img/Home_Backgrounds/valorant.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#background5 {
+    background: url(../img/Home_Backgrounds/beat_saber.png);
+    background-size: cover;
+    background-position: center;
+}
+#background6 {
+    background: #000;
+}
+
+#content {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.gap {
+    height: 100vh;
+}
+
+.box {
+    width: calc(80% - 10vw);
+    height: 100vh;
+    font-size: 2vw;
+    text-shadow: 0.1vw 0.1vw black;
+    padding-right: 8vw;
+    text-align: left;
+    line-height: 5vw;
+}
+
+#content > div.box {
+    font-size: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+#content > div a {
+    font-size: 8vw;
+}
+
+#content > div a:hover {
+    color: #097979;
+}
+
+#scroll {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 100;
+    top: 0;
+    left: 0;
+}
+
+#scroll h1 {
+    font-size: 2vw;
+    background: rgba(255,255,255,0.1);
+    border-top-right-radius: 2vw;
+    border-top-left-radius: 2vw;
+    padding: 1vw;
+    text-align: center;
+    display: block;
+}
