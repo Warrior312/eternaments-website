@@ -3,14 +3,13 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home3/eternao4/public_html/
     - /bin/cp index.php $DEPLOYPATH
-    - /bin/cp style.css $DEPLOYPATH
     - /bin/cp -R ./img $DEPLOYPATH
     - /bin/cp -R ./pages $DEPLOYPATH
     - /bin/cp -R ./includes $DEPLOYPATH
     - /bin/cp -R ./node_modules $DEPLOYPATH
+    - /bin/cp -R ./styles $DEPLOYPATH
+    - /bin/cp -R ./scripts $DEPLOYPATH
     - /bin/cp -R favicon.ico $DEPLOYPATH
-    - /bin/cp -R app.js $DEPLOYPATH
-    - /bin/cp -R maintenance.php $DEPLOYPATH
-    - /bin/cp -R maint.css $DEPLOYPATH
+    - /bin/cp -R style.css $DEPLOYPATH
 
     
