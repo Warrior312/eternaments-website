@@ -1,4 +1,4 @@
-
+<?php require_once 'includes/maint.inc.php'?>
 
 <!DOCTYPE html>
 
@@ -10,9 +10,9 @@
     />
 
     <title>Eternaments</title>
-    <link rel="stylesheet" href="../styles/style.css" />
-    <link rel="stylesheet" href="../styles/home.css" />
-  </head>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/home.css">
+</head>
 
   <body>
     <?php include_once 'header.php' ?>
