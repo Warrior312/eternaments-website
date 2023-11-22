@@ -22,6 +22,10 @@
     border-radius: 4vw;
 }
 
+#background-image > *:not(:first-of-type) {
+    filter: grayscale(0.5);
+}
+
 #background1 {
     background: url(../img/Home_Backgrounds/logo_gif.gif);
     background-size: cover;
@@ -51,11 +55,18 @@
     background: #000;
 }
 
+#fake-content {
+    z-index: -100;
+}
+
 #content {
-    width: 100%;
+    position: fixed;
+    width: 100vw;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+    
+    height: 100vh;
 }
 
 .gap {
@@ -63,40 +74,35 @@
 }
 
 .box {
+    position: absolute;
     width: calc(80% - 10vw);
     height: 100vh;
     font-size: 2vw;
     text-shadow: 0.1vw 0.1vw black;
-    padding-right: 8vw;
     text-align: left;
     line-height: 5vw;
-}
-
-#content > div.box {
-    font-size: 8vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0;
+    padding-right: 8vw;
 }
-
 #content > div a {
     font-size: 8vw;
 }
-
 #content > div a:hover {
     color: #097979;
+    font-size: 8vw;
 }
 
 #scroll {
     position: fixed;
     width: 100vw;
-    height: 100vh;
+    height: 5vh;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     z-index: 100;
-    top: 0;
+    bottom:  0;
     left: 0;
 }
 

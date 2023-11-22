@@ -71,6 +71,7 @@
       </p>
       <div class="box" id="box9"><a href="https://discord.gg/eternaments" target="_blank">Jump In</a></div>
     </div>
+    <div id="fake-content"></div>
 
     <div id="background">
       <div id="background-images">

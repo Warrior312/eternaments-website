@@ -47,6 +47,10 @@ nav#topnav ul a.active li {
   text-decoration: underline;
 }
 
+nav#topnav ul a:hover {
+  cursor: pointer;
+}
+
 nav#topnav ul a:hover li {
   text-decoration: underline;
 }

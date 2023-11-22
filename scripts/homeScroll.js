@@ -4,6 +4,9 @@ changeBackground();
 changeText();
 scrollHint();
 
+let contentHeight = (document.getElementById("content").childElementCount * 100).toString() + "vh";
+document.getElementById("fake-content").style.height = contentHeight;
+
 function getBGOpacity(distance) {
   let bg_OpacityMod = scrollDistance - ((distance + 3) * 10);
   if (bg_OpacityMod > 40) {
@@ -12,7 +15,7 @@ function getBGOpacity(distance) {
   if (bg_OpacityMod < 0) {
     bg_OpacityMod = 0;
   }
-  return bg_OpacityMod / 40;
+  return (bg_OpacityMod / 40);
 }
 
 function changeBackground() {
@@ -73,7 +76,6 @@ function scrollHint() {
 document.addEventListener("scroll", () => {
   let scrollDistance_px = window.scrollY;
   scrollDistance = 100 * (scrollDistance_px / window.innerHeight);
-  // console.log(scrollDistance)
 
   scrollHint();
   changeBackground();
