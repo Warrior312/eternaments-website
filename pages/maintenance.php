@@ -23,7 +23,7 @@
         The Eternaments Team
     </div>
     <div id="imgHolder" style="display: flex; justify-content: center; align-items: center;">
-        <img id="img" src="img/Untitled_design_6.png" alt="">
+        <img id="img" src="../img/Untitled_design_6.png" alt="">
     </div>
 </body>
 
