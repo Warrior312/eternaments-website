@@ -51,15 +51,14 @@
                     <div id="awardees">';
             print_r($rows);
             foreach (explode(",", $rows[$X][2]) as $key => $value) {
-                print_r($value);
-                print_r("\n");
+              
                 if ($value !== ",") {
                     // grabbing discordId 
                     $discordId = $value;
-                    print_r("Passed the vlaue check");
+            
                     // collect token
                     $token = $jsonData["token"];
-                    print_r(isset($token));
+                   
                     $url = "https://discord.com/api/v9/users/{$discordId}";
                     // start up oauth to connect to the discord service
                     $options = array(
@@ -71,7 +70,7 @@
                     // grabbing context of oauth with given options
                     $context = stream_context_create($options);
                     $response = file_get_contents($url, false, $context);
-                    print_r($response);
+          
                     if ($response !== false) {
                         $response = json_decode($response, true);
                         // grabbing avatar URL after getting response json
