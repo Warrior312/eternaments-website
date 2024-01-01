@@ -70,7 +70,7 @@
                     // grabbing context of oauth with given options
                     $context = stream_context_create($options);
                     $response = file_get_contents($url, false, $context);
-                    print_r($response)
+                    print_r($response);
                     if ($response !== false) {
                         $response = json_decode($response, true);
                         // grabbing avatar URL after getting response json
