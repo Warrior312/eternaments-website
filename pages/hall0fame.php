@@ -52,6 +52,7 @@
             print_r($rows);
             foreach (explode(",", $rows[$X][2]) as $key => $value) {
                 print_r($value);
+                print_r("\n");
                 if ($value !== ",") {
                     // grabbing discordId 
                     $discordId = $value;
