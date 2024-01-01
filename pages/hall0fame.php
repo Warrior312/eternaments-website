@@ -51,6 +51,7 @@
                     <div id="awardees">';
             print_r($rows);
             foreach (explode(",", $rows[$X][2]) as $key => $value) {
+                print_r($value);
                 if ($value !== ",") {
                     // grabbing discordId 
                     $discordId = $value;
