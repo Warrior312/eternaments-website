@@ -14,6 +14,7 @@
 
     <div id="honorsBG">
         <?php
+        error_reporting(E_ALL | E_STRICT);
         // this PHP code checks for connection errors to the discord channel.
         if (isset($_SESSION["connErr"])) {
             print_r($_SESSION["connErr"]);
