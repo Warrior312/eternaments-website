@@ -49,7 +49,7 @@
             // echo the div for the honors title, where all playercards get stored.
             echo '<div id="title"><?php // insert SQL data here ?>' . $rows[$X][1] . '</div>
                     <div id="awardees">';
-            print_r($rows);
+       
             foreach (explode(",", $rows[$X][2]) as $key => $value) {
               
                 if ($value !== ",") {
