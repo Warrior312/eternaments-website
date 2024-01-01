@@ -56,9 +56,10 @@
                 if ($value !== ",") {
                     // grabbing discordId 
                     $discordId = $value;
-
+                    print_r("Passed the vlaue check");
                     // collect token
                     $token = $jsonData["token"];
+                    print_r($token);
                     $url = "https://discord.com/api/v9/users/{$discordId}";
                     // start up oauth to connect to the discord service
                     $options = array(
